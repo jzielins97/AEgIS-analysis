@@ -1,0 +1,2432 @@
+2024-11-21 16:59:29 ERROR DOWNLOAD ERROR: download failed for file pbar_run_432854-21-11-2024-16_50_52.JDIR.
+2024-11-21 16:59:51 INFO finding looplift candidates
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius1
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector captorius3
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector HVGateMon
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver for Run: 432854: 'Start_run'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 16:59:52 ERROR None
+2024-11-21 16:59:52 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 16:59:52 ERROR None
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver for Run: 432854: 'HV Negative Read'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'AD_Injection'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Inj_Trigger'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Ext_Trigger'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Final_Ext'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver for Run: 432854: 'ELENA_Parameters'
+2024-11-21 16:59:52 ERROR No Beam intensity for run 432854
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 16:59:52 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 16:59:52 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 16:59:52 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 16:59:52 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 16:59:52 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 16:59:52 ERROR KeyError in pipelines.gold: get_black_box_function_value 'ELENA_Parameters'
+2024-11-21 16:59:52 ERROR KeyError in pipeline_gold.ExtendedDataAnalysis for run: 432854: 'SC12_coinc'
+2024-11-21 16:59:52 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_1_TOF_ions'
+2024-11-21 16:59:52 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_1_TOF_ions'
+2024-11-21 16:59:52 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_3_TOF_ions'
+2024-11-21 16:59:52 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_2_TOF_ions'
+2024-11-21 16:59:52 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_1_TOF_electrons'
+2024-11-21 16:59:52 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_1_TOF_electrons'
+2024-11-21 16:59:52 ERROR KeyError in Dataset.from_variable_name for Run: 432854: '1TCMOS'
+2024-11-21 16:59:52 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 16:59:52 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:05:08 INFO finding looplift candidates
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius1
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector captorius3
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver for Run: 432854: 'Start_run'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:05:09 ERROR None
+2024-11-21 17:05:09 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:05:09 ERROR None
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver for Run: 432854: 'HV Negative Read'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'AD_Injection'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Inj_Trigger'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Ext_Trigger'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Final_Ext'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver for Run: 432854: 'ELENA_Parameters'
+2024-11-21 17:05:09 ERROR No Beam intensity for run 432854
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:05:09 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 17:05:09 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 17:05:09 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 17:05:09 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 17:05:09 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 17:05:09 ERROR KeyError in pipelines.gold: get_black_box_function_value 'ELENA_Parameters'
+2024-11-21 17:05:09 ERROR KeyError in pipeline_gold.ExtendedDataAnalysis for run: 432854: 'SC12_coinc'
+2024-11-21 17:05:09 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_1_TOF_ions'
+2024-11-21 17:05:09 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_1_TOF_ions'
+2024-11-21 17:05:09 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_3_TOF_ions'
+2024-11-21 17:05:09 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_2_TOF_ions'
+2024-11-21 17:05:09 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_1_TOF_electrons'
+2024-11-21 17:05:09 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Channel_1_TOF_electrons'
+2024-11-21 17:05:09 ERROR KeyError in Dataset.from_variable_name for Run: 432854: '1TCMOS'
+2024-11-21 17:05:09 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 17:05:09 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:18:36 INFO finding looplift candidates
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:18:37 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius1
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius1
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius1
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius1
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius1
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius1
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius1
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius1
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius1
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius1
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius3
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius3
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius3
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius3
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius3
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius3
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius3
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius3
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius3
+2024-11-21 17:18:37 INFO INFO: no config file for detector captorius3
+2024-11-21 17:18:37 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:18:37 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:18:37 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:18:37 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:18:37 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:18:37 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:18:37 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:18:37 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:18:37 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:18:37 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:18:37 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:18:37 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:18:37 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:18:37 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:18:37 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:18:37 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:18:37 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:18:37 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:18:37 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:18:37 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:18:37 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver for Run: 432854: 'Start_run'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:18:37 ERROR None
+2024-11-21 17:18:37 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:18:37 ERROR None
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver for Run: 432854: 'HV Negative Read'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'AD_Injection'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Inj_Trigger'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Ext_Trigger'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Final_Ext'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver for Run: 432854: 'ELENA_Parameters'
+2024-11-21 17:18:37 ERROR No Beam intensity for run 432854
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver: 'captorius1'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:18:37 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 17:18:37 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 17:18:37 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 17:18:37 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 17:18:37 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 17:18:37 ERROR KeyError in pipelines.gold: get_black_box_function_value 'ELENA_Parameters'
+2024-11-21 17:18:37 ERROR KeyError in pipeline_gold.ExtendedDataAnalysis for run: 432854: 'SC12_coinc'
+2024-11-21 17:18:37 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Metadata'
+2024-11-21 17:18:37 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 17:18:37 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:19:05 INFO finding looplift candidates
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:06 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:06 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:06 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:06 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:06 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:06 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:06 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:06 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:06 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:06 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:06 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:06 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:06 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:06 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:06 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:06 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:06 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:06 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:06 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:06 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:06 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:06 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:06 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver for Run: 432854: 'Start_run'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:19:06 ERROR None
+2024-11-21 17:19:06 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:19:06 ERROR None
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver for Run: 432854: 'HV Negative Read'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'AD_Injection'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Inj_Trigger'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Ext_Trigger'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Final_Ext'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver for Run: 432854: 'ELENA_Parameters'
+2024-11-21 17:19:06 ERROR No Beam intensity for run 432854
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver: 'captorius1'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:19:06 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 17:19:06 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 17:19:06 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 17:19:06 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 17:19:06 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 17:19:06 ERROR KeyError in pipelines.gold: get_black_box_function_value 'ELENA_Parameters'
+2024-11-21 17:19:06 ERROR KeyError in pipeline_gold.ExtendedDataAnalysis for run: 432854: 'SC12_coinc'
+2024-11-21 17:19:06 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Metadata'
+2024-11-21 17:19:06 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 17:19:06 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:19:46 INFO finding looplift candidates
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:47 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius1
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:47 INFO INFO: no config file for detector captorius3
+2024-11-21 17:19:47 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:47 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:47 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:47 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:47 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:47 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:47 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:47 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:47 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:47 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:47 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:19:47 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:47 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:47 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:47 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:47 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:47 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:47 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:47 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:47 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:47 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver for Run: 432854: 'Start_run'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:19:47 ERROR None
+2024-11-21 17:19:47 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:19:47 ERROR None
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver for Run: 432854: 'HV Negative Read'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'AD_Injection'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Inj_Trigger'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Ext_Trigger'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Final_Ext'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver for Run: 432854: 'ELENA_Parameters'
+2024-11-21 17:19:47 ERROR No Beam intensity for run 432854
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver: 'captorius1'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:19:47 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 17:19:47 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 17:19:47 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 17:19:47 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 17:19:47 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 17:19:47 ERROR KeyError in pipelines.gold: get_black_box_function_value 'ELENA_Parameters'
+2024-11-21 17:19:47 ERROR KeyError in pipeline_gold.ExtendedDataAnalysis for run: 432854: 'SC12_coinc'
+2024-11-21 17:19:47 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Metadata'
+2024-11-21 17:19:47 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 17:19:47 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:20:04 INFO finding looplift candidates
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:05 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:05 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:05 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:05 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:05 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:05 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:05 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:05 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:05 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:05 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:05 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:05 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:05 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:05 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:05 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:05 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:05 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:05 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:05 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:05 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:05 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:05 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:05 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver for Run: 432854: 'Start_run'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:20:05 ERROR None
+2024-11-21 17:20:05 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:20:05 ERROR None
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver for Run: 432854: 'HV Negative Read'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'AD_Injection'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Inj_Trigger'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Ext_Trigger'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Final_Ext'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver for Run: 432854: 'ELENA_Parameters'
+2024-11-21 17:20:05 ERROR No Beam intensity for run 432854
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver: 'captorius1'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:20:05 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 17:20:05 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 17:20:05 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 17:20:05 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 17:20:05 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 17:20:05 ERROR KeyError in pipelines.gold: get_black_box_function_value 'ELENA_Parameters'
+2024-11-21 17:20:05 ERROR KeyError in pipeline_gold.ExtendedDataAnalysis for run: 432854: 'SC12_coinc'
+2024-11-21 17:20:05 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Metadata'
+2024-11-21 17:20:05 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 17:20:05 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:20:36 INFO finding looplift candidates
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius1
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector captorius3
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:20:43 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:20:43 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:20:43 ERROR None
+2024-11-21 17:20:43 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 17:20:43 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:20:43 ERROR None
+2024-11-21 17:20:43 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 17:20:43 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:20:43 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 17:20:43 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 17:20:44 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:20:44 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:20:44 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:20:44 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:20:44 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:20:44 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:20:44 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:20:44 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:20:44 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:20:44 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:20:44 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 17:20:44 ERROR KeyError in pipelines.gold: 'integral'
+2024-11-21 17:20:45 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 17:20:45 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 17:20:45 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 17:20:45 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 17:20:45 ERROR KeyError in pipelines.gold: get_opt_obs_for_pbar_stacking index -1 is out of bounds for axis 0 with size 0
+2024-11-21 17:20:45 ERROR KeyError in pipelines.gold: get_opt_obs_for_pbar_stacking index -1 is out of bounds for axis 0 with size 0
+2024-11-21 17:20:45 ERROR KeyError in pipelines.gold: get_opt_obs_for_pbar_stacking index -1 is out of bounds for axis 0 with size 0
+2024-11-21 17:20:45 ERROR KeyError in pipelines.gold: get_number_of_pbars_for_sc list index out of range
+2024-11-21 17:20:45 ERROR KeyError in pipelines.gold: get_number_of_pbars_for_sc list index out of range
+2024-11-21 17:20:45 ERROR KeyError in pipelines.gold: get_number_of_pbars_for_sc list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_ThickDegrader list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR IndexError in pipelines.gold: get_scintillator_ratio_matrix_from_MCP list index out of range
+2024-11-21 17:20:45 ERROR No daq_filename for PMT2 or MCP_1T implemented for determine_pbar_loss_fractions: list index out of range
+2024-11-21 17:20:46 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Metadata'
+2024-11-21 17:20:46 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 17:20:46 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:40:13 INFO finding looplift candidates
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:14 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:14 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:14 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:14 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:14 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:14 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:14 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:14 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:14 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:14 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:14 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:14 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:14 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:14 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:14 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:14 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:14 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:14 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:14 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:14 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:14 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:14 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:14 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:14 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:14 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver for Run: 432854: 'Start_run'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:40:14 ERROR None
+2024-11-21 17:40:14 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:40:14 ERROR None
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver for Run: 432854: 'HV Negative Read'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'AD_Injection'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Inj_Trigger'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Ext_Trigger'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Final_Ext'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver for Run: 432854: 'ELENA_Parameters'
+2024-11-21 17:40:14 ERROR No Beam intensity for run 432854
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver: 'captorius1'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:40:14 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 17:40:14 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 17:40:14 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 17:40:14 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 17:40:14 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 17:40:14 ERROR KeyError in pipelines.gold: get_black_box_function_value 'ELENA_Parameters'
+2024-11-21 17:40:14 ERROR KeyError in pipeline_gold.ExtendedDataAnalysis for run: 432854: 'SC12_coinc'
+2024-11-21 17:40:14 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 17:40:14 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:40:35 INFO finding looplift candidates
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:35 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius1
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:35 INFO INFO: no config file for detector captorius3
+2024-11-21 17:40:35 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:35 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:35 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:35 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:35 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:35 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:35 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:35 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:35 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:35 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:35 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:35 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:40:35 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:35 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:35 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:35 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:35 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:35 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:35 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:35 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:35 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:35 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:35 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver for Run: 432854: 'Start_run'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:40:35 ERROR None
+2024-11-21 17:40:35 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:40:35 ERROR None
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver for Run: 432854: 'HV Negative Read'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'AD_Injection'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Inj_Trigger'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Ext_Trigger'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Final_Ext'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver for Run: 432854: 'ELENA_Parameters'
+2024-11-21 17:40:35 ERROR No Beam intensity for run 432854
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver: 'captorius1'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 17:40:35 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 17:40:36 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:40:36 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 17:40:36 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 17:40:36 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 17:40:36 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 17:40:36 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 17:40:36 ERROR KeyError in pipelines.gold: get_black_box_function_value 'ELENA_Parameters'
+2024-11-21 17:40:36 ERROR KeyError in pipeline_gold.ExtendedDataAnalysis for run: 432854: 'SC12_coinc'
+2024-11-21 17:40:36 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 17:40:36 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:55:02 INFO finding looplift candidates
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:55:03 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius1
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius1
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius1
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius1
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius1
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius1
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius1
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius1
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius1
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius1
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius1
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius3
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius3
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius3
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius3
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius3
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius3
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius3
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius3
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius3
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius3
+2024-11-21 17:55:03 INFO INFO: no config file for detector captorius3
+2024-11-21 17:55:03 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:55:03 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:55:03 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:55:03 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:55:03 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:55:03 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:55:03 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:55:03 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:55:03 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:55:03 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:55:03 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:55:03 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:55:03 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:55:03 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:55:03 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:55:03 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:55:03 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:55:03 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:55:03 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:55:03 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:55:03 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:55:03 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:55:03 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver for Run: 432854: 'Start_run'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:55:03 ERROR None
+2024-11-21 17:55:03 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:55:03 ERROR None
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver for Run: 432854: 'HV Negative Read'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'AD_Injection'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Inj_Trigger'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Ext_Trigger'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Final_Ext'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver for Run: 432854: 'ELENA_Parameters'
+2024-11-21 17:55:03 ERROR No Beam intensity for run 432854
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver: 'captorius1'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:55:03 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 17:55:03 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 17:55:03 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 17:55:03 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 17:55:03 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 17:55:03 ERROR KeyError in pipelines.gold: get_black_box_function_value 'ELENA_Parameters'
+2024-11-21 17:55:03 ERROR KeyError in pipeline_gold.ExtendedDataAnalysis for run: 432854: 'SC12_coinc'
+2024-11-21 17:55:03 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 17:55:03 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:58:33 INFO finding looplift candidates
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:58:34 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius1
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius1
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius1
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius1
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius1
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius1
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius1
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius1
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius1
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius1
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius1
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius3
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius3
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius3
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius3
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius3
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius3
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius3
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius3
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius3
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius3
+2024-11-21 17:58:34 INFO INFO: no config file for detector captorius3
+2024-11-21 17:58:34 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:58:34 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:58:34 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:58:34 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:58:34 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:58:34 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:58:34 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:58:34 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:58:34 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:58:34 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:58:34 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:58:34 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:58:34 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:58:34 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:58:34 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:58:34 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:58:34 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:58:34 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:58:34 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:58:34 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:58:34 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:58:34 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:58:34 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver for Run: 432854: 'Start_run'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:58:34 ERROR None
+2024-11-21 17:58:34 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:58:34 ERROR None
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver for Run: 432854: 'HV Negative Read'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'AD_Injection'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Inj_Trigger'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Ext_Trigger'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Final_Ext'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver for Run: 432854: 'ELENA_Parameters'
+2024-11-21 17:58:34 ERROR No Beam intensity for run 432854
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver: 'captorius1'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:58:34 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 17:58:34 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 17:58:34 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 17:58:34 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 17:58:34 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 17:58:34 ERROR KeyError in pipelines.gold: get_black_box_function_value 'ELENA_Parameters'
+2024-11-21 17:58:34 ERROR KeyError in pipeline_gold.ExtendedDataAnalysis for run: 432854: 'SC12_coinc'
+2024-11-21 17:58:34 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 17:58:34 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:59:53 INFO finding looplift candidates
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Pw
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:59:54 INFO INFO: no config file for detector HV_Line_Voltage
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius1
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius1
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius1
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius1
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius1
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius1
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius1
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius1
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius1
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius1
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius1
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius3
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius3
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius3
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius3
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius3
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius3
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius3
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius3
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius3
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius3
+2024-11-21 17:59:54 INFO INFO: no config file for detector captorius3
+2024-11-21 17:59:54 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:59:54 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:59:54 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:59:54 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:59:54 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:59:54 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:59:54 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:59:54 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:59:54 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:59:54 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:59:54 INFO INFO: no config file for detector CinqueUnoCinqueDue
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVPulseMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector HVGateMon
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi2
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:59:54 INFO INFO: no config file for detector PMTDigi3
+2024-11-21 17:59:54 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:59:54 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:59:54 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:59:54 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:59:54 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:59:54 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:59:54 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:59:54 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:59:54 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:59:54 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:59:54 INFO INFO: no config file for detector SeiUnoTreTre
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver for Run: 432854: 'Start_run'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:59:54 ERROR None
+2024-11-21 17:59:54 ERROR No Beam Steering Parameters (BeamSteering.py) found in Kasli_StdOut for run 432854 found. 'Kasli_StdOut'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver for Run: 432854: 'Kasli_StdOut'
+2024-11-21 17:59:54 ERROR None
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver for Run: 432854: 'HV Negative Read'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver in clean_batman for Run: 432854: 'Batman'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver for Run: 432854: 'Build_and_Init_Library.py'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'AD_Injection'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Inj_Trigger'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Ext_Trigger'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver in clean_timestamps for Run: 432854: 'ELENA_Final_Ext'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver for Run: 432854: 'ELENA_Parameters'
+2024-11-21 17:59:54 ERROR No Beam intensity for run 432854
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver: 'captorius1'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver: 'captorius3'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.silver for Run: 432854: 'Alex'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.gold for Run: 432854: 'Batman'
+2024-11-21 17:59:54 ERROR KeyError in pipeline_gold.LaserDataAnalysis.analyse() for Run: 432854: 'Alex'
+2024-11-21 17:59:54 ERROR KeyError in pipeline_gold.CCDDataAnalysis.analyse() for Run: 432854: '5TCCD'
+2024-11-21 17:59:54 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_IR'
+2024-11-21 17:59:54 ERROR KeyError in pipeline_gold.SpectrometerDataAnalysis.analyse() for Run: 432854: 'Avantes_Spectrometer_UV'
+2024-11-21 17:59:54 ERROR KeyError in pipeline_gold.OscilloscopeDataAnalysis.analyse() for Run: 432854: 'captorius3'
+2024-11-21 17:59:54 ERROR KeyError in pipelines.gold: get_black_box_function_value 'ELENA_Parameters'
+2024-11-21 17:59:54 ERROR KeyError in pipeline_gold.ExtendedDataAnalysis for run: 432854: 'SC12_coinc'
+2024-11-21 17:59:54 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Batman'
+2024-11-21 17:59:54 ERROR KeyError in Dataset.from_variable_name for Run: 432854: 'Build_and_Init_Library.py'
