@@ -10,7 +10,7 @@ import ALPACA.data.finalize as finalize
 import numpy as np   
 
 # retrieve the data
-run_number = 434499 # 432854
+run_number = 434508 # 434857 # 432854
 sc_index = 56
 data = finalize.generate(first_run=run_number, #426447,426472
                         last_run=run_number,#426467,426473 
@@ -25,7 +25,7 @@ data = finalize.generate(first_run=run_number, #426447,426472
                             'metadata*SyncCheck_labels',
                             ],
                             directories_to_flush=[ 'bronze', 'gold','datasets','elog'],
-                            speed_mode=True) #'bronze', 'gold', 'elog'
+                            speed_mode=False) #'bronze', 'gold', 'elog'
                             # directories_to_flush=['bronze','gold','datasets', 'elog'],
                             # speed_mode=False) #'bronze', 'gold', 'datasets', 'elog'
 
@@ -37,7 +37,7 @@ runs = data['Run_Number_Run_Number___value']
 print(runs)
 
 
-print(data)
+# print(data)
 # sync checks
 for i,run_number in enumerate(runs):
     print("++++++++++++++++++++++++++++")
