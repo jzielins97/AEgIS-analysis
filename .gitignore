@@ -4,5 +4,6 @@ HCI_analysis/Analysis_HCI_FPG
 **csv
 **parquet
 **png
-**/.vscode**
+**.vscode**
 **Argon Run Scan
+**/*.zip
