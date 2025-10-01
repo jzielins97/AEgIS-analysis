@@ -10,8 +10,8 @@ import ALPACA.data.finalize as finalize
 import numpy as np   
 
 # retrieve the data
-run_number = 434324 # 434318
-sc_index = 56
+run_number = 432882 # 434318
+sc_index = 12
 data = finalize.generate(first_run=run_number, #426447,426472
                         last_run=run_number,#426467,426473 
                         elog_results_filename=f'SC{sc_index}s_{run_number}',
@@ -37,7 +37,7 @@ runs = data['Run_Number_Run_Number___value']
 print(runs)
 
 
-print(data)
+print(data['metadata_SyncCheck_labels'])
 # sync checks
 for i,run_number in enumerate(runs):
     print("++++++++++++++++++++++++++++")
@@ -88,7 +88,7 @@ try:
     pbar_arrival_time = float(sync_checks[(sync_checks["Run Number"]==run_number) & (sync_checks["label"]=='pbar_arrival_start')]["clock"])
     print(pbar_arrival_time)
 except:
-    pbar_arrival_time = 0
+    pbar_arrival_time = first_sync_check
 sc_data = sc[(sc['Run Number']==run_number)] # & (sc['t [s]'] < 115292150460)
 t_start = sc_data['t [s]'].iloc[0]
 t_end = sc_data['t [s]'].iloc[-1]
@@ -104,7 +104,7 @@ print(bins)
 sc_plot = sns.histplot(data=sc_data,x='t [s]',hue='Run Number',bins=bins,palette='tab10')#,ax=ax[0]) #,weights='count'
 sc_plot.grid(axis='x',which='major',linestyle = "dashed",linewidth = 0.5,alpha=0.8)
 sc_plot.grid(axis='x',which='minor',linestyle = "dashed",linewidth = 0.5,alpha=0.5)
-sc_plot.set_ylim(0,200)
+sc_plot.set_ylim(0,40e3)
 # print(f"{bins} -> {hot_storage[i]} ")
 # sc_plot.set_xlim(-30,bins + 20 if hot_storage[i] is None else hot_storage[i] + 100)
 
@@ -118,13 +118,19 @@ for index,sync_check in sync_checks[sync_checks['Run Number']==run_number].iterr
         sc_plot.axvline(sync_check_position,lw=1,color='red',alpha=0.5)
         text_position = y_min+(0.2)*(y_max-y_min)
         sc_plot.text(sync_check_position,text_position,label,rotation=90,size='smaller') # rotation=45, # (1+index)*dy
+        # if label == 'acq_0':
+        #     sc_plot.text(sync_check_position,text_position,'pbar_arrival',rotation=90,size='smaller') # rotation=45, # (1+index)*dy
+        # elif label == 'acq_2':
+        #     sc_plot.text(sync_check_position,text_position,'pbar_dump_start',rotation=90,size='smaller') # rotation=45, # (1+index)*
+        # elif label == 'acq_3':
+        #     sc_plot.text(sync_check_position,text_position,'pbar_dump_end',rotation=90,size='smaller') # rotation=45, # (1+index)*dy
     except:
         continue
 sc_plot.xaxis.set_major_locator(MultipleLocator(10))
 sc_plot.xaxis.set_minor_locator(MultipleLocator(5))
 sc_plot.set_title(f"SC{sc_index}")
 
-# file = os.path.join(os.path.split(__file__)[0],'plots',f'sc_data_{run_number}.png')
+file = os.path.join(os.path.split(__file__)[0],'images','SC-signal',f'sc{sc_index}_{run_number}.png')
 # fig.savefig(file)
 plt.show()
 

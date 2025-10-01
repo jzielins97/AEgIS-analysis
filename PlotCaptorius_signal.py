@@ -10,7 +10,7 @@ import ALPACA.data.finalize as finalize
 import numpy as np   
 
 # retrieve the data
-run_number = 434310 # 432854
+run_number = 434854 # 432854
 
 CAPTORIUS_BIN_SIZE = 5
 
@@ -28,7 +28,7 @@ data = finalize.generate(first_run=run_number, #426447,426472
                             captorius_label_V,
                             ],
                             directories_to_flush=['bronze', 'gold','dataset','elog'],
-                            speed_mode=False) #'bronze', 'gold','dataset', 'elog'
+                            speed_mode=True) #'bronze', 'gold','dataset', 'elog'
 
 # change naming convension from loading to accessing
 captorius_label_t = captorius_label_t.replace('*','_')

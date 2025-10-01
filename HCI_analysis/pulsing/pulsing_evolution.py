@@ -1,5 +1,5 @@
 import pandas as pd
-# import seaborn as sns
+import os
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
 from matplotlib.colors import LogNorm
@@ -7,6 +7,7 @@ from matplotlib.colors import LogNorm
 import ALPACA.data.finalize as finalize
 import numpy as np   
 
+script_dir = os.path.dirname(__file__)
 LOAD_WITH_ALPACA = False
 if LOAD_WITH_ALPACA:
     CAPTORIUS_BIN_SIZE = 5
@@ -78,14 +79,14 @@ if LOAD_WITH_ALPACA:
             run_params = pd.concat([run_params,pd.DataFrame({'Run Number':run_number,'pulse_amplitude':data[pulse_amplitude_label][i]},index=[run_number])])
         except TypeError:
             print('WARNING: missing pulse amplitude infomation')  
-    captorius.to_csv('captorius.csv',index=False)
-    run_params.to_csv('run_parameters.csv',index=False)
+    captorius.to_csv(os.path.join(script_dir,'captorius.csv'),index=False)
+    run_params.to_csv(os.path.join(script_dir,'run_parameters.csv'),index=False)
     run_params = run_params.set_index('Run Number')
     data = None
 else:
-    run_params = pd.read_csv('run_parameters.csv',index_col='Run Number')
+    run_params = pd.read_csv(os.path.join(script_dir,'run_parameters.csv'),index_col='Run Number')
     
-    captorius = pd.read_csv('captorius.csv')
+    captorius = pd.read_csv(os.path.join(script_dir,'captorius.csv'))
 
 
 runs = run_params.sort_values('pulse_amplitude',ascending=True).index.to_list()
@@ -130,8 +131,9 @@ for i, run_number in enumerate(runs):
         ax[i,j].set_xticks(electrodes['center'])
         ax[i,j].set_xticks(electrodes['end'],minor=True)
         ax[i,j].set_xticklabels(electrodes.index.to_list())
-        ax[i,j].grid(axis='x',which='minor',linestyle = "dashed",linewidth = 0.5,alpha=0.5)
-        ax[i,j].grid(axis='y',which='major',linewidth = 0.5,alpha=0.5)
+        # ax[i,j].grid(axis='x',which='minor',linestyle = "dashed",linewidth = 0.5,alpha=0.5)
+        # ax[i,j].grid(axis='y',which='major',linewidth = 0.5,alpha=0.5)
+        ax[i,j].grid(False)
         ax[i,j].tick_params(which = "minor", bottom = False, left = False)
         ax[i,j].set_xlim(-453.5,-268.5)
         if j == 0:
@@ -144,6 +146,8 @@ for i, run_number in enumerate(runs):
     ax[i,2].set_xlabel('time [s]')
     ax[i,2].set_ylabel('signal [a.u.]')
     ax[i,2].set_xlim(1.55e-5,1.9e-5)
+    ax[i,2].set_ylim(-0.45,0.15)
+    ax[i,2].grid()
     ax[i,2].legend()
     run_params = pd.read_csv('run_parameters.csv',index_col='Run Number')
 plt.show()

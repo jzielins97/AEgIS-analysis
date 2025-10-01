@@ -19,25 +19,20 @@ class SCHistogramPlot(unittest.TestCase):
         """
 
         # 426397
-        data = finalize.generate(first_run=434334 ,
-                                 last_run=434334 ,
+        data = finalize.generate(first_run=432877 ,
+                                 last_run=432883 ,
                                  elog_results_filename='run_viewer',
-                                 known_bad_runs=[393838, 393840, 393842, 393844, 393846], #393842, 393844],
+                                 known_bad_runs=[], #393842, 393844],
                                  verbosing=True,
                                  variables_of_interest=[
                                      'Run_Number*Run_Number*__value',  # run number
-                                     'captorius1*acq_0*Channel_1_TOF_ions*Y_[V]*t',
-                                     'captorius1*acq_0*Channel_1_TOF_ions*Y_[V]*V',
-                                     'captorius1*acq_0*Channel_2_TOF_ions*Y_[V]*V',
-                                     'captorius1*acq_0*Channel_3_TOF_ions*Y_[V]*V',
-                                     'Sync_check',
-                                    #  'metadata'
-                                    'SC12_coinc*event_clock',
-                                    'SC12_coinc*event'
+                                     'Batman*acq_0*HCI_HV_Scan',
+                                     'run_dir_creation_time*run_dir_creation_time_str'
                                     ],
                                  directories_to_flush=['bronze', 'gold', 'datasets', 'elog'],
                                  speed_mode=False) #'bronze', 'gold', 'datasets', 'elog'
 
+        print(data['run_dir_creation_time_run_dir_creation_time_str'])
 
 if __name__ == '__main__':
     unittest.main()

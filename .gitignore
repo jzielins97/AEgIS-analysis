@@ -1,3 +1,8 @@
 HCI_analysis/HCI_analysis_general
 HCI_analysis/Analysis_HCI_FPG
-*.html
+**.html
+**csv
+**parquet
+**png
+**/.vscode**
+**Argon Run Scan
