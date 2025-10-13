@@ -4,9 +4,11 @@ import os
 import matplotlib.pyplot as plt
 import pickle
 
-first_run = 400395
-last_run = 400425
-bad_runs = []
+# first_run = 400395
+# last_run = 400425
+first_run = 434122
+last_run = 434138
+bad_runs = [434131]
 
 data = finalize.generate(first_run=first_run,
                         last_run=last_run,
@@ -15,8 +17,10 @@ data = finalize.generate(first_run=first_run,
                         verbosing=False,
                         variables_of_interest=[
                             'Run_Number*Run_Number*__value',
-                            'CinqueUnoCinqueDue_1TMCPPhosphor_Antiproton_Cold_Dump*acq_0*t', 
-                            'CinqueUnoCinqueDue_1TMCPPhosphor_Antiproton_Cold_Dump*acq_0*V',
+                            # 'CinqueUnoCinqueDue_1TMCPPhosphor_Antiproton_Cold_Dump*acq_0*t', 
+                            # 'CinqueUnoCinqueDue_1TMCPPhosphor_Antiproton_Cold_Dump*acq_0*V',
+                            'captorius1*acq_0*Channel_1_TOF_ions*Y_[V]*t',
+                            'captorius1*acq_0*Channel_1_TOF_ions*Y_[V]*V',
                             'Batman*acq_0*Ecooling_LaunchPotential', 
                             'Batman*acq_0*NestedTrap_TrapFloor', 
                             'Batman*acq_0*Catch_HotStorageTime', 
@@ -24,10 +28,14 @@ data = finalize.generate(first_run=first_run,
                             'Batman*acq_0*Pbar_CoolingTime',
                             'Batman'
                         ],
-                        directories_to_flush=[],  # 'bronze', 'gold', 'datasets', 'elog' 
-                        speed_mode=False)
+                        directories_to_flush=['bronze', 'gold', 'datasets', 'elog' ],  # 'bronze', 'gold', 'datasets', 'elog' 
+                        speed_mode=True)
 runs = data['Run_Number_Run_Number___value']
-print(data['Batman'][0])
+for idx in range(len(runs)):
+    print(runs[idx])
+    print(type(data['captorius1_acq_0_Channel_1_TOF_ions_Y_[V]_t'][idx]))
+
+
 df = pl.DataFrame({
     'run':data['Run_Number_Run_Number___value'],
     'V_launch':data['Batman_acq_0_Ecooling_LaunchPotential'],
@@ -35,10 +43,12 @@ df = pl.DataFrame({
     'HotStorage_s':data['Batman_acq_0_Catch_HotStorageTime'],
     'ColdStorage_s':data['Batman_acq_0_Catch_ColdStorageTime'],
     'CoolingTime_s':data['Batman_acq_0_Pbar_CoolingTime'],
-    't_s':data['CinqueUnoCinqueDue_1TMCPPhosphor_Antiproton_Cold_Dump_acq_0_t'],
-    'signal_V':data['CinqueUnoCinqueDue_1TMCPPhosphor_Antiproton_Cold_Dump_acq_0_V']
+    # 't_s':data['CinqueUnoCinqueDue_1TMCPPhosphor_Antiproton_Cold_Dump_acq_0_t'],
+    # 'signal_V':data['CinqueUnoCinqueDue_1TMCPPhosphor_Antiproton_Cold_Dump_acq_0_V']
+    't_s':data['captorius1_acq_0_Channel_1_TOF_ions_Y_[V]_t'],
+    'signal_V':data['captorius1_acq_0_Channel_1_TOF_ions_Y_[V]_V']
 })
-df.write_parquet(os.path.join(os.path.dirname(__file__),'calibration_runs.parquet'))
+df.write_parquet(os.path.join(os.path.dirname(__file__),'calibration_runs_part2.parquet'))
 print(df)
 '''
 
