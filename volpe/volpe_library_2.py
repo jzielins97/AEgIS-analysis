@@ -21,6 +21,8 @@ from scipy.special import erf, erfc
 from scipy.stats import exponnorm, norm
 import warnings
 
+_figures:list[plt.Figure] = []
+_axes:list[plt.Axes] = []
 
 ##################################################################################
 #               System functions
@@ -422,12 +424,16 @@ def fit_n_plot(df, function, par_i, descriptors):
     # Generate the fitted curve
     x_fit = np.linspace(min(df.index.values), max(df.index.values), 1000)
     # Plot the data and the fitted curve
-    sns.relplot(data=df, label='Data', kind='line', x=df.index, y=df.columns[0])
-    plt.plot(x_fit, function(x_fit, *par_i), label='Initial Guess', color='grey')
-    plt.plot(x_fit, function(x_fit, *popt), label='Fitted Curve', color='red')
-    plt.xlabel('x')
-    plt.ylabel('y')
-    plt.legend()
+    fig,ax = plt.subplots()
+    sns.relplot(data=df, label='Data', kind='line', x=df.index, y=df.columns[0],ax=ax)
+    ax.plot(x_fit, function(x_fit, *par_i), label='Initial Guess', color='grey')
+    ax.plot(x_fit, function(x_fit, *popt), label='Fitted Curve', color='red')
+    ax.set_xlabel('x')
+    ax.set_ylabel('y')
+    ax.legend()
+
+    _figures.append(fig)
+    _axes.append(ax)
     plt.show()
     return popt, pcov
 
@@ -484,19 +490,23 @@ def fit_n_plot_errors(df, function, par_i, descriptors, verbose= True, maxfev=50
         # Generate the fitted curve
         x_fit = np.linspace(min(df.index.values), max(df.index.values), 1000)
         # Plot the data and the fitted curve
-        plt.figure(figsize=(10, 5))
-        plt.errorbar(df.index, df.iloc[:,0].values, yerr=df.iloc[:,1].values, fmt='.', zorder=1)#, markersize=3)
-        plt.plot(x_fit, function(x_fit, *par_i), label='Initial Guess', color='grey', zorder=2)
-        plt.plot(x_fit, function(x_fit, *popt), label='Fitted Curve', color='red', zorder=3)
-        plt.xlabel('x')
-        plt.ylabel('y')
+        fig = plt.figure(figsize=(10, 5))
+        ax = fig.add_subplot()
+        ax.errorbar(df.index, df.iloc[:,0].values, yerr=df.iloc[:,1].values, fmt='.', zorder=1)#, markersize=3)
+        ax.plot(x_fit, function(x_fit, *par_i), label='Initial Guess', color='grey', zorder=2)
+        ax.plot(x_fit, function(x_fit, *popt), label='Fitted Curve', color='red', zorder=3)
+        ax.set_xlabel('t [s]')
+        ax.set_ylabel('MCP signal [V]')
         if ylim != None:
-            plt.ylim(ylim)
+            ax.set_ylim(ylim)
         if xlim != None:
-            plt.xlim(xlim)
+            ax.set_xlim(xlim)
         if yscale != 'linear':
-            plt.yscale(yscale)
-        plt.legend()
+            ax.set_yscale(yscale)
+        ax.legend()
+
+        _figures.append(fig)
+        _axes.append(ax)
         plt.show()
     return popt, pcov
 
@@ -553,22 +563,26 @@ def fit_n_plot_errors_for_paper(df, function, par_i, descriptors, verbose= True,
         # Generate the fitted curve
         x_fit = np.linspace(min(df.index.values), max(df.index.values), 1000)
         # Plot the data and the fitted curve
-        plt.figure(figsize=(10, 5))
-        plt.errorbar(df.index, df.iloc[:,0].values, yerr=df.iloc[:,1].values, fmt='.', zorder=1)#, markersize=3)
+        fig = plt.figure(figsize=(10, 5))
+        ax = fig.add_subplot()
+        ax.errorbar(df.index, df.iloc[:,0].values, yerr=df.iloc[:,1].values, fmt='.', zorder=1,label='data')#, markersize=3)
         # plt.plot(x_fit, function(x_fit, *par_i), label='Initial Guess', color='grey', zorder=2)
-        plt.plot(x_fit, function(x_fit, *popt), label='Fitted Curve', color='red', zorder=3)
-        plt.xlabel('Time of Flight (s)')
-        plt.ylabel('Intensity (V)')
+        ax.plot(x_fit, function(x_fit, *popt), label='Fitted Curve', color='red', zorder=3)
+        ax.set_xlabel('t [s]')
+        ax.set_ylabel('MCP signal [V]')
         if ylim != None:
-            plt.ylim(ylim)
+            ax.set_ylim(ylim)
         if xlim != None:
-            plt.xlim(xlim)
+            ax.set_xlim(xlim)
         if yscale != 'linear':
-            plt.yscale(yscale)
+            ax.set_yscale(yscale)
         # plt.axvline(x=x0, color='black', linestyle='--')  # Add vertical line at x=x0
-        plt.xlim(right=5e-5)  # Cut the plot at x=x0
-        plt.xlim(left=0)
-        plt.legend()
+        ax.set_xlim(right=5e-5)  # Cut the plot at x=x0
+        ax.set_xlim(left=0)
+        ax.legend()
+
+        _figures.append(fig)
+        _axes.append(ax)
         plt.show()
     return popt, pcov
 

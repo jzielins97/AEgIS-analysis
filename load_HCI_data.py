@@ -1,9 +1,7 @@
 import ALPACA.data.finalize as finalize
 import polars as pl
-import seaborn as sns
-import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib.colors import LogNorm
+import os
 
 def mq_from_tof(tof, V_floor = 180):
     '''
@@ -15,7 +13,7 @@ def mq_from_tof(tof, V_floor = 180):
     mq = ((tof/t_ref)**2) * (V_floor/V_ref) * m_q_ref
     return mq
 
-runs = [427000+x for x in [300, 302, 304, 306, 307, 308, 309]] # 97, 316
+runs = [427000+x for x in [97, 300, 302, 304, 306, 307, 308, 309, 316]] # 97, 316
 # runs = [427000+x for x in [300, 302, 303, 304, 306, 307, 308, 309, 310, 312, 314, 315, 316]]
 bad_runs = [i for i in range(runs[0],runs[-1]) if i not in runs]
 
@@ -33,9 +31,6 @@ data = finalize.generate(first_run=runs[0],
                              '1TCMOS*acq_1*C_flatten_data',
                              '1TCMOS*acq_1*height',
                              '1TCMOS*acq_1*width',
-                            #  'Batman*acq_0',
-                            #  "HV Negative Read*V_2",
-                            #  "HV Negative Read*V_0"
                              'Batman*acq_0*Catch_HotStorageTime',
                              'Batman*acq_0*NestedTrap_TrapFloor',
                              'Batman*acq_0*NestedTrap_Wall',
@@ -44,19 +39,8 @@ data = finalize.generate(first_run=runs[0],
                              'Batman*acq_0*NegHV_Ch1',
                              'Batman*acq_0*NegHV_Ch2'
                          ],
-                         directories_to_flush=['bronze', 'gold', 'datasets', 'elog'], # 'bronze', 'gold', 'datasets', 'elog'
-                         speed_mode=True)
-
-print(data)
-# palette1 = sns.color_palette("tab10")
-# fig = plt.figure()
-# nrows = 4
-# ncols = 2*(int(np.ceil(len(runs)/nrows)))
-# axes = fig.subplots(nrows,ncols,gridspec_kw={'width_ratios': [1 if i %2 else 3 for i in range(ncols)]})
-
-# palette = sns.color_palette("hls",10)
-# fig2 = plt.figure()
-# ax2 = fig2.subplots(4,2)
+                         directories_to_flush=[], # 'bronze', 'gold', 'datasets', 'elog'
+                         speed_mode=False)
 
 sync_check_labels = ['pbar_arrival_1','pbar_arrival_2']
 for i in range(12):
@@ -69,6 +53,7 @@ ion_accumulation_s = []
 sync_checks_all = []
 SC56_all = []
 SC56_bcg_all = []
+
 for i,run in enumerate(data["Run_Number_Run_Number___value"]):
     print(f"============== {run} ==============")
     print(f"NegHV_Ch1={data['Batman_acq_0_NegHV_Ch1'][i]}")
@@ -103,13 +88,19 @@ data_parquet = pl.DataFrame({"Run":data['Run_Number_Run_Number___value'],
                              "NegHV1_kV":data['Batman_acq_0_NegHV_Ch1'],
                              "NegHV3_kV":data['Batman_acq_0_NegHV_Ch2'],
                              "trap_floor_V":data['Batman_acq_0_NestedTrap_TrapFloor'],
+                             "trap_wall_V":data['Batman_acq_0_NestedTrap_Wall'],
                              "hot_storage_s":data['Batman_acq_0_Catch_HotStorageTime'],
                              "pbar_cooling_s":data['Batman_acq_0_Pbar_CoolingTime'],
                              "ion_accumulation_s":ion_accumulation_s,
                              'sync_check_s':sync_checks_all,
                              "sync_checks_labels":[sync_check_labels]*len(data['Run_Number_Run_Number___value']),
                              "SC56":SC56_all,
-                             "SC56_bcg":SC56_bcg_all})
+                             "SC56_bcg":SC56_bcg_all,
+                             "captorius_t":data['captorius1_acq_0_Channel_1_TOF_ions_Y_[V]_t'],
+                             "captorius_V":data['captorius1_acq_0_Channel_1_TOF_ions_Y_[V]_V'],
+                             "CMOS1T":data['1TCMOS_acq_1_C_flatten_data'],
+                             "CMOS1T_hieight":data['1TCMOS_acq_1_height'],
+                             "CMOS1T_width":data['1TCMOS_acq_1_width']})
 
 print(data_parquet)
-data_parquet.write_parquet("data/HCI_PhD.parquet")
+data_parquet.write_parquet(os.path.join(os.path.dirname(__file__),"data\\HCI_PhD.parquet"))

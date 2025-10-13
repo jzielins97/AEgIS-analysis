@@ -32,8 +32,8 @@ if LOAD_WITH_ALPACA:
                                 captorius_label_V,
                                 pulse_amplitude_label
                                 ],
-                                directories_to_flush=['bronze', 'gold','dataset','elog'],
-                                speed_mode=True) #'bronze', 'gold','dataset', 'elog'
+                                directories_to_flush=[],
+                                speed_mode=False) #'bronze', 'gold','dataset', 'elog'
 
     # change naming convension from loading to accessing
     captorius_label_t = captorius_label_t.replace('*','_')
@@ -109,47 +109,95 @@ print(pulses_sim)
 print("data loaded")
 
 ################ PLOTS #########################
-plt.rcParams["figure.figsize"] = (3*6.4, 2*4.8)
-fig = plt.figure("Pulsing")
-ax = fig.subplots(len(runs),3, gridspec_kw = {'wspace':0.2, 'hspace':0.0},sharex='col')
+# plt.rcParams["figure.figsize"] = (3*6.4, 2*4.8)
+# fig = plt.figure("Pulsing")
+# ax = fig.subplots(len(runs),3, gridspec_kw = {'wspace':0.2, 'hspace':0.0},sharex='col')
 
+
+# colors = ['tab:blue','tab:orange','tab:green','tab:red','tab:purple','tab:brown','tab:pink']
+# for i, run_number in enumerate(runs):
+#     pulse_amplitude = f"{run_params.loc[run_number]['pulse_amplitude']:.0f} V"
+#     if i == 0:
+#         ax[i,0].set_title('Pulse')
+#         ax[i,1].set_title('Pulse (zoom)')
+#         ax[i,2].set_title('TOF signal')
+#     for j in [0,1]:
+#         # ax[i,j].fill_between(pulses_sim.index,pulses_sim['full'],color='black',alpha=0.5)
+#         ax[i,j].fill_between(pulses_sim.index,pulses_sim[pulse_amplitude],pulses_sim['full'],color=colors[i],alpha=0.5)
+#         ax[i,j].plot(pulses_sim.index,pulses_sim[pulse_amplitude],label=pulse_amplitude,color=colors[i])
+#         ax[i,j].plot(pulses_sim.index,pulses_sim['full'],color='black')
+#         ax[i,j].set_xlabel('electrode')
+#         ax[i,j].set_ylabel('potential [V]')
+#         ax[i,j].set_xticks(electrodes['center'])
+#         ax[i,j].set_xticks(electrodes['end'],minor=True)
+#         ax[i,j].set_xticklabels(electrodes.index.to_list())
+#         # ax[i,j].grid(axis='x',which='minor',linestyle = "dashed",linewidth = 0.5,alpha=0.5)
+#         # ax[i,j].grid(axis='y',which='major',linewidth = 0.5,alpha=0.5)
+#         ax[i,j].grid(False)
+#         ax[i,j].tick_params(which = "minor", bottom = False, left = False)
+#         ax[i,j].set_xlim(-453.5,-268.5)
+#         if j == 0:
+#             ax[i,j].set_ylim(0,215)
+#         else:
+#             ax[i,j].set_ylim(155,205)
+#         ax[i,j].legend()
+
+#     ax[i,2].plot(captorius[captorius['Run Number']==run_number]['t [s]'],captorius[captorius['Run Number']==run_number]['signal [a.u.]'],label=run_number,color=colors[i])
+#     ax[i,2].set_xlabel('time [s]')
+#     ax[i,2].set_ylabel('signal [a.u.]')
+#     ax[i,2].set_xlim(1.55e-5,1.9e-5)
+#     ax[i,2].set_ylim(-0.45,0.15)
+#     ax[i,2].grid()
+#     ax[i,2].legend()
+#     run_params = pd.read_csv('run_parameters.csv',index_col='Run Number')
+
+plt.rcParams["figure.figsize"] = (2*6.4, 2*4.8)
+fig = plt.figure("Pulsing")
+ax = fig.subplots(len(runs),2, gridspec_kw = {'wspace':0.2, 'hspace':0.0},width_ratios=[1.5,1],sharex='col')
 
 colors = ['tab:blue','tab:orange','tab:green','tab:red','tab:purple','tab:brown','tab:pink']
 for i, run_number in enumerate(runs):
     pulse_amplitude = f"{run_params.loc[run_number]['pulse_amplitude']:.0f} V"
     if i == 0:
         ax[i,0].set_title('Pulse')
-        ax[i,1].set_title('Pulse (zoom)')
-        ax[i,2].set_title('TOF signal')
-    for j in [0,1]:
-        # ax[i,j].fill_between(pulses_sim.index,pulses_sim['full'],color='black',alpha=0.5)
-        ax[i,j].fill_between(pulses_sim.index,pulses_sim[pulse_amplitude],pulses_sim['full'],color=colors[i],alpha=0.5)
-        ax[i,j].plot(pulses_sim.index,pulses_sim[pulse_amplitude],label=pulse_amplitude,color=colors[i])
-        ax[i,j].plot(pulses_sim.index,pulses_sim['full'],color='black')
-        ax[i,j].set_xlabel('electrode')
-        ax[i,j].set_ylabel('potential [V]')
-        ax[i,j].set_xticks(electrodes['center'])
-        ax[i,j].set_xticks(electrodes['end'],minor=True)
-        ax[i,j].set_xticklabels(electrodes.index.to_list())
-        # ax[i,j].grid(axis='x',which='minor',linestyle = "dashed",linewidth = 0.5,alpha=0.5)
-        # ax[i,j].grid(axis='y',which='major',linewidth = 0.5,alpha=0.5)
-        ax[i,j].grid(False)
-        ax[i,j].tick_params(which = "minor", bottom = False, left = False)
-        ax[i,j].set_xlim(-453.5,-268.5)
-        if j == 0:
-            ax[i,j].set_ylim(0,215)
-        else:
-            ax[i,j].set_ylim(155,205)
-        ax[i,j].legend()
+        ax[i,1].set_title('TOF signal')
+    # ax[i,j].fill_between(pulses_sim.index,pulses_sim['full'],color='black',alpha=0.5)
+    ax[i,0].fill_between(pulses_sim.index,pulses_sim[pulse_amplitude],pulses_sim['full'],color=colors[i],alpha=1.0)
+    ax[i,0].plot(pulses_sim.index,pulses_sim[pulse_amplitude],label=pulse_amplitude,color=colors[i])
+    ax[i,0].plot(pulses_sim.index,pulses_sim['full'],color='black')
+    ax[i,0].set_xlabel('electrode')
+    ax[i,0].set_ylabel('potential [V]')
+    ax[i,0].set_xticks(electrodes['center'])
+    ax[i,0].set_xticks(electrodes['end'],minor=True)
+    ax[i,0].set_xticklabels(electrodes.index.to_list())
+    # ax[i,j].grid(axis='x',which='minor',linestyle = "dashed",linewidth = 0.5,alpha=0.5)
+    # ax[i,j].grid(axis='y',which='major',linewidth = 0.5,alpha=0.5)
+    ax[i,0].grid(True,which='minor')
+    ax[i,0].tick_params(which = "minor", bottom = False, left = False)
+    ax[i,0].set_xlim(electrodes.loc['P7']['start'],electrodes.loc['T1']['end'])
+    ax[i,0].set_ylim(0,215)
+    ax[i,0].legend(loc='lower left')
+    # inset
+    axins = ax[i,0].inset_axes([0.6, 0.4, 0.38, 0.58],xlim=(electrodes.loc['P10']['start'],electrodes.loc['P13']['end']), ylim=(140,190))  
+    axins.set_xticks(electrodes.loc['P10':'P13']['center'])
+    axins.set_xticks(electrodes.loc['P10':'P13']['end'],minor=True)
+    axins.set_xticklabels(electrodes.loc['P10':'P13'].index.to_list())
+    axins.fill_between(pulses_sim.index,pulses_sim[pulse_amplitude],pulses_sim['full'],color=colors[i],alpha=1.0)
+    axins.plot(pulses_sim.index,pulses_sim[pulse_amplitude],label=pulse_amplitude,color=colors[i])
+    axins.plot(pulses_sim.index,pulses_sim['full'],color='black')
+    axins.grid(True,which='minor')
+    ax[i,0].indicate_inset_zoom(axins, edgecolor="black")
 
-    ax[i,2].plot(captorius[captorius['Run Number']==run_number]['t [s]'],captorius[captorius['Run Number']==run_number]['signal [a.u.]'],label=run_number,color=colors[i])
-    ax[i,2].set_xlabel('time [s]')
-    ax[i,2].set_ylabel('signal [a.u.]')
-    ax[i,2].set_xlim(1.55e-5,1.9e-5)
-    ax[i,2].set_ylim(-0.45,0.15)
-    ax[i,2].grid()
-    ax[i,2].legend()
+    ax[i,1].plot(captorius[captorius['Run Number']==run_number]['t [s]'],captorius[captorius['Run Number']==run_number]['signal [a.u.]'],label=run_number,color=colors[i])
+    ax[i,1].set_xlabel('time [s]')
+    ax[i,1].set_ylabel('signal [a.u.]')
+    ax[i,1].set_xlim(1.55e-5,1.9e-5)
+    ax[i,1].set_ylim(-0.35,0.05)
+    ax[i,1].grid()
+    ax[i,1].legend()
     run_params = pd.read_csv('run_parameters.csv',index_col='Run Number')
+fig.tight_layout()
+fig.savefig(os.path.join(os.path.dirname(__file__),"pulsing.eps"),dpi=600)
 plt.show()
 
         
