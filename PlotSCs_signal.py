@@ -10,7 +10,7 @@ import ALPACA.data.finalize as finalize
 import numpy as np   
 
 # retrieve the data
-run_number = 434508 # 434857 # 432854
+run_number = 492042 # 434857 # 432854
 sc_index = 56
 data = finalize.generate(first_run=run_number, #426447,426472
                         last_run=run_number,#426467,426473 
@@ -22,10 +22,16 @@ data = finalize.generate(first_run=run_number, #426447,426472
                             'Sync_check',
                             f'SC{sc_index}_coinc*event_clock',
                             f'SC{sc_index}_coinc*event',
-                            'metadata*SyncCheck_labels',
+                            # 'metadata*SyncCheck_labels',
+                            'SyncCheck_labels',
+                            'Hikrobot',
+                            'Hikrobot*acq_0',
+                            'Hikrobot*acq_0*height',
+                            'Hikrobot*acq_0*width',
+                            'Hikrobot*acq_0*C_flatten_data',
                             ],
                             directories_to_flush=[ 'bronze', 'gold','datasets','elog'],
-                            speed_mode=False) #'bronze', 'gold', 'elog'
+                            speed_mode=True) #'bronze', 'gold', 'elog'
                             # directories_to_flush=['bronze','gold','datasets', 'elog'],
                             # speed_mode=False) #'bronze', 'gold', 'datasets', 'elog'
 
@@ -47,7 +53,7 @@ for i,run_number in enumerate(runs):
 
         clock = (sync_check['Timestamp']['clock'])*1e-7
         try:
-            label = data['metadata_SyncCheck_labels'][i][j]
+            label = data['SyncCheck_labels'][i][j]
         except:
             label = f'acq_{j}'
         sync_checks = pd.concat([sync_checks,
