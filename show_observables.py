@@ -7,7 +7,7 @@ import ALPACA.configurations.verbose as verbose
 import numpy as np
 
 # 426397
-RUN=492712
+RUN=493586
 data = finalize.generate(first_run=RUN,
                             last_run=RUN,
                             elog_results_filename='run_viewer',
@@ -15,6 +15,8 @@ data = finalize.generate(first_run=RUN,
                             verbosing=True,
                             variables_of_interest=[
                                 'Run_Number*Run_Number*__value', # run number
+                                'labeled_SyncChecks*labels',
+                                'labeled_SyncChecks*timestamps_daq_clock_s',
                             ],
                             directories_to_flush=["bronze","gold","datasets","elog" ], # "bronze","gold","datasets","elog" 
                             speed_mode=False)

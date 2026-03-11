@@ -55,8 +55,8 @@ def plot_single_image(data:pl.DataFrame,run:int,showfig:bool=False):
 
 if __name__ == "__main__":
     variables_of_interest = [
-        'SC12_coinc*events_after_hot_dump',
-        'SC12_coinc*event_clock',
+        'SC56_coinc*events_in_interval',
+        'SC56_coinc*event_clock',
         'Hikrobot*acq_0*height',
         'Hikrobot*acq_0*width',
         'Hikrobot*acq_0*C_flatten_data'
@@ -69,8 +69,8 @@ if __name__ == "__main__":
     ]
                             
     column_names = [
-        'SC12_coinc*events_after_hot_dump',
-        'SC12_coinc*event_clock',
+        'SC56_coinc*events_in_interval',
+        'SC56_coinc*event_clock',
         'MCP_img_height',
         'MCP_img_width',
         'MCP_img',
@@ -96,22 +96,19 @@ if __name__ == "__main__":
         'QDNE14N'
     ]
     
-    ELENA_runs = [493025+i for i in range(3)]
-    optimiser_runs = [493028+i for i in range(3)]
-    default_runs = [493031+i for i in range(3)]
-    optimiser_plus_runs = [493037+i for i in range(3)]
-    optimiser_corr = [493199+i for i in range(3)]
-    image_runs = [493022+i for i in range(3)] + [493034,493202,]
+    default_steering = [493824]
+    optimised_steering = [493823,493825,493826]
+    image_runs = [493827]
 
     data = ALPACA_load_data(
-        runs = ELENA_runs + optimiser_runs + default_runs + optimiser_plus_runs+ optimiser_corr + image_runs,
+        runs = default_steering + optimised_steering + image_runs,
         # first_run=493022,
         # last_run=493033,
         variables_of_interest=variables_of_interest,
         # directories_to_flush=[],
         # speed_mode=False,
         column_names=column_names,
-        output_file_name="ELENA_comparison-imgs.parquet",
+        output_file_name="ELENA_comparison-ecool.parquet",
         dtype={'SC12_coinc*event_clock':pl.List,
             'MCP_img_height':pl.Int32,
             'MCP_img_width':pl.Int32,
@@ -121,23 +118,16 @@ if __name__ == "__main__":
 
     print(data)
 
-    data = data.with_columns(pl.when(pl.col("Run Number").is_in(ELENA_runs)).then(pl.lit("ELENA"))
-                            .when(pl.col("Run Number").is_in(optimiser_runs)).then(pl.lit("optimiser"))
-                            .when(pl.col("Run Number").is_in(default_runs)).then(pl.lit("default"))
-                            .when(pl.col("Run Number").is_in(optimiser_plus_runs)).then(pl.lit("optimiser+5mm"))
-                            .when(pl.col("Run Number").is_in(optimiser_corr)).then(pl.lit("optimiser_corr"))
-                            .when(pl.col("Run Number")==493022).then(pl.lit("ELENA_img"))
-                            .when(pl.col("Run Number")==493023).then(pl.lit("optimiser_img"))
-                            .when(pl.col("Run Number")==493024).then(pl.lit("default_img"))
-                            .when(pl.col("Run Number")==493034).then(pl.lit("optimier_plus_5mm_img"))
-                            .when(pl.col("Run Number")==493202).then(pl.lit("optimier_corr_img"))
+    data = data.with_columns(pl.when(pl.col("Run Number").is_in(default_steering)).then(pl.lit("default"))
+                            .when(pl.col("Run Number").is_in(optimised_steering)).then(pl.lit("optimiser"))
+                            .when(pl.col("Run Number")==493034).then(pl.lit("10D optimised"))
                             .otherwise(pl.lit("images")).alias("settings"))
 
     data_mean=data.filter(~pl.col("Run Number").is_in(image_runs)).group_by("settings").agg(pl.col("SC12_coinc*events_after_hot_dump").mean().alias("mean counts"),
                                             pl.col("SC12_coinc*events_after_hot_dump").std().alias("std counts"),
                                             )
     print(data_mean)
-    best_settings = data.filter(pl.col("SC12_coinc*events_after_hot_dump")==pl.col("SC12_coinc*events_after_hot_dump").max())
+    best_settings = data.filter(pl.col("SC56_coinc*events_in_interval")==pl.col("SC56_coinc*events_in_interval").max())
     print(best_settings)
     
     for run in image_runs:

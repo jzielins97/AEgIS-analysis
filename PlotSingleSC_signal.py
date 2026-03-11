@@ -10,7 +10,7 @@ import ALPACA.data.finalize as finalize
 import numpy as np   
 
 # retrieve the data
-run_number = 492042 # 432882 # 434318
+run_number = 493560 # 432882 # 434318
 sc_index = 12
 data = finalize.generate(first_run=run_number, #426447,426472
                         last_run=run_number,#426467,426473 
@@ -97,12 +97,10 @@ if bins > 100000:
 print(f'from {t_start} to {t_end} -> {t_end-t_start} in {bins} bins')
 print(f"first sync check = {sync_checks.select(pl.col('t [s]').first()).item()}")
 
-print(sc)
-print(sync_checks)
 sc_plot = sns.histplot(data=sc,x='t [s]',hue='Run Number',bins=bins,palette='tab10')#,ax=ax[0]) #,weights='count'
 sc_plot.grid(axis='x',which='major',linestyle = "dashed",linewidth = 0.5,alpha=0.8)
 sc_plot.grid(axis='x',which='minor',linestyle = "dashed",linewidth = 0.5,alpha=0.5)
-sc_plot.set_ylim(0,40e3)
+sc_plot.set_ylim(0,300)
 # print(f"{bins} -> {hot_storage[i]} ")
 # sc_plot.set_xlim(-30,bins + 20 if hot_storage[i] is None else hot_storage[i] + 100)
 

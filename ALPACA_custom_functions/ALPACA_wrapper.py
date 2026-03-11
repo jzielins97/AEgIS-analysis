@@ -93,7 +93,11 @@ def ALPACA_load_data(
     else:
         runs=sorted(runs)
         first_run=runs[0]
-        last_run=runs[-1]    
+        last_run=runs[-1]
+        for run in range(first_run+1,last_run):
+               if run not in runs and run not in known_bad_runs:
+                   known_bad_runs.append(run)
+        known_bad_runs = sorted(known_bad_runs)
     
     _log.debug(f"{_func_name}:first_run={first_run}")
     _log.debug(f"{_func_name}:last_run={last_run}")
@@ -162,14 +166,15 @@ def ALPACA_load_data(
                 continue
             except FileNotFoundError:
                 pass            
-        data = finalize.generate(first_run=run,
-                            last_run= run,
-                            elog_results_filename=f'{run}',
-                            known_bad_runs=known_bad_runs,
-                            verbosing=verbosing,
-                            variables_of_interest=variables_of_interest,
-                            directories_to_flush=directories_to_flush, 
-                            speed_mode=speed_mode)
+        data = finalize.generate(
+            first_run=run,
+            last_run= run,
+            elog_results_filename=f'{run}',
+            known_bad_runs=known_bad_runs,
+            verbosing=verbosing,
+            variables_of_interest=variables_of_interest,
+            directories_to_flush=directories_to_flush, 
+            speed_mode=speed_mode)
         try:
             bad_run = False
             for variable in variables_of_interest:
