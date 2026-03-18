@@ -8,3 +8,4 @@ HCI_analysis/Analysis_HCI_FPG
 **Argon Run Scan
 **/*.zip
 **/data/*
+**/plots/*
