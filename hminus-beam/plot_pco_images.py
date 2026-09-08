@@ -7,6 +7,7 @@ are downloaded through ALPACA on first use.
 
     python plot_pco_images.py
     python plot_pco_images.py --runs 492712-492719 492730
+    python plot_pco_images.py --runs 523369-523371 --roi   # cropped to the MCP active area
 """
 
 import argparse
@@ -22,7 +23,6 @@ import hminus_data as hd
 # configuration
 # ---------------------------------------------------------------------------
 RUNS = [int(run) for run in np.linspace(523357,523410,54)]
-print(RUNS)
 
 N_COLS = 3
 PANEL_PX = 380           # rendered size of one panel, in pixels
@@ -39,7 +39,7 @@ ZMIN = 0.0
 CONTRAST = 1.0           # zmax = peak / CONTRAST; raise it to bring out faint structure
 
 # ELENA keys written under each panel; the full set is always in the hover text
-ANNOTATION_KEYS = ["H_offset_mm", "V_offset_mm", "H_angle_mrad", "V_angle_mrad", "catch_delay"]
+ANNOTATION_KEYS = hd.BEAM_READBACKS + ["catch_delay"]
 
 
 def _axis_names(index: int) -> tuple[str, str]:
@@ -48,7 +48,10 @@ def _axis_names(index: int) -> tuple[str, str]:
     return f"x{suffix}", f"y{suffix}"
 
 
-def _colour_range(images: list[np.ndarray], contrast: float) -> tuple[float, float]:
+def _colour_range(images: list[np.ndarray], contrast: float,
+                  zmax: float | None = None) -> tuple[float, float]:
+    if zmax is not None:
+        return ZMIN, zmax
     peak = max(float(image.max()) for image in images)
     return ZMIN, peak / contrast if contrast else peak
 
@@ -59,8 +62,14 @@ def plot_run_images(data,
                     common_scale: bool = COMMON_SCALE,
                     contrast: float = CONTRAST,
                     output_name: str | None = None,
-                    show: bool = True) -> go.Figure:
-    """One panel per run, each showing that run's PCO Edge image plus its ELENA settings."""
+                    show: bool = True,
+                    zmax: float | None = None,
+                    roi: bool = False) -> go.Figure:
+    """One panel per run, each showing that run's PCO Edge image plus its ELENA settings.
+
+    ``roi=True`` crops every panel to the MCP active area measured by fit_mcp_area.py, which drops
+    about two thirds of the pixels and shrinks the html by as much.
+    """
     rows = [row for row in data.iter_rows(named=True) if row.get("has_image")]
     skipped = [row["Run Number"] for row in data.iter_rows(named=True) if not row.get("has_image")]
     if skipped:
@@ -68,8 +77,10 @@ def plot_run_images(data,
     if not rows:
         raise RuntimeError("none of the requested runs has a PCO Edge image")
 
-    images = [hd.downsample(hd.get_image(row), display_size, DOWNSAMPLE_HOW)
-              for row in rows]
+    frames = [hd.get_image(row) for row in rows]
+    if roi:
+        frames = [hd.crop_to_mcp(frame) for frame in frames]
+    images = [hd.downsample(frame, display_size, DOWNSAMPLE_HOW) for frame in frames]
 
     n_cols = max(1, min(n_cols, len(rows)))
     n_rows = int(np.ceil(len(rows) / n_cols))
@@ -79,7 +90,7 @@ def plot_run_images(data,
                         horizontal_spacing=0.04,
                         vertical_spacing=max(0.06, 0.22 / n_rows))
 
-    zmin, zmax = _colour_range(images, contrast) if common_scale else (None, None)
+    zmin, zmax = _colour_range(images, contrast, zmax) if common_scale else (None, zmax)
 
     for index, (row, image) in enumerate(zip(rows, images), start=1):
         grid_row, grid_col = divmod(index - 1, n_cols)
@@ -94,8 +105,9 @@ def plot_run_images(data,
         if common_scale:
             heatmap.update(coloraxis="coloraxis")
         else:
-            heatmap.update(colorscale=COLORSCALE, showscale=False,
-                           zmin=ZMIN, zmax=float(image.max()) / (contrast or 1))
+            heatmap.update(colorscale=COLORSCALE, showscale=False, zmin=ZMIN,
+                           zmax=zmax if zmax is not None
+                           else float(image.max()) / (contrast or 1))
 
         fig.add_trace(heatmap, row=grid_row + 1, col=grid_col + 1)
 
@@ -143,19 +155,6 @@ def plot_run_images(data,
     return fig
 
 
-def _parse_runs(tokens: list[str]) -> list[int]:
-    """Accept both single runs and inclusive 'first-last' ranges."""
-    runs = []
-    for token in tokens:
-        if "-" in token.strip("-"):
-            first, last = token.split("-", 1)
-            runs.extend(range(int(first), int(last) + 1))
-        else:
-            runs.append(int(token))
-
-    return sorted(set(runs))
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -168,16 +167,35 @@ if __name__ == "__main__":
                         help="give each panel its own colour range instead of a shared one")
     parser.add_argument("--contrast", type=float, default=CONTRAST,
                         help="zmax = peak / contrast; raise it to bring out faint structure")
+    parser.add_argument("--zmax", type=float,
+                        help="absolute colour ceiling, overriding --contrast")
+    parser.add_argument("--roi", action="store_true",
+                        help="crop every panel to the MCP active area (see fit_mcp_area.py)")
     parser.add_argument("--force", action="store_true", help="re-download even if cached")
+    parser.add_argument("--order-by", default=None,
+                        help="lay the panels out in order of this knob instead of by run number")
     parser.add_argument("--no-show", action="store_true", help="only write the html file")
     args = parser.parse_args()
 
-    runs = _parse_runs(args.runs) if args.runs else RUNS
+    if not args.no_show:
+        hd.use_browser_renderer()
+
+    runs = hd.parse_runs(args.runs) if args.runs else RUNS
 
     data = hd.load_runs(runs, force=args.force)
+
+    if args.order_by:
+        if args.order_by not in data.columns:
+            raise SystemExit(f"{args.order_by} is not a column; try one of {hd.ALL_SETPOINTS} "
+                             f"or the readbacks {hd.ALL_READBACKS}")
+        # panels then read as a scan rather than as a chronology
+        data = data.sort(args.order_by, "Run Number")
+
     plot_run_images(data,
                     n_cols=args.cols,
                     display_size=args.display_size,
                     common_scale=not args.per_panel_scale,
                     contrast=args.contrast,
-                    show=not args.no_show)
+                    show=not args.no_show,
+                    zmax=args.zmax,
+                    roi=args.roi)

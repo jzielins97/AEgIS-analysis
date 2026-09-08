@@ -8,6 +8,8 @@ not cached yet -- run download_runs.py first if you want that to be instant.
     python plot_pco_image.py 523357 523369 --contrast 5
     python plot_pco_image.py 523357-523410 --no-show     # whole scan, PNGs instead of windows
     python plot_pco_image.py 523369-523371 --average     # the three repeats of one scan point
+    python plot_pco_image.py 523369 --roi                # cropped to the MCP (see fit_mcp_area.py)
+    python plot_pco_image.py 523443 --vmax 30            # LED picture, colour ceiling set by hand
 
 One window per run, all opened at once, so past a dozen runs use --no-show and look at the PNGs it
 writes into plots/.
@@ -19,6 +21,8 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 import polars as pl
+from matplotlib.patches import Circle
+from matplotlib.transforms import Bbox
 
 import hminus_data as hd
 
@@ -27,13 +31,8 @@ CONTRAST = 1.0           # vmax = peak / CONTRAST; raise it to bring out faint s
 FIGSIZE = (13.5, 7.5)
 
 # how the text panel is grouped, label -> list of columns
-BEAM_KEYS = ["H_offset_mm", "V_offset_mm", "H_angle_mrad", "V_angle_mrad",
-             "catch_delay", "beam_stopper_position"]
+BEAM_KEYS = hd.BEAM_READBACKS + ["catch_delay", "beam_stopper_position"]
 IMAGE_KEYS = ["PCO_signal_sum", "PCO_max_signal_in_px", "PCO_mean_background", "PCO_std_background"]
-
-# requested-value column for each beam readback, so the panel can show "readback (set X)"
-BEAM_REQUESTED = {"H_offset_mm": "H_offset_requested", "V_offset_mm": "V_offset_requested",
-                  "H_angle_mrad": "H_angle_requested", "V_angle_mrad": "V_angle_requested"}
 
 
 def _value(row: dict, key: str) -> str:
@@ -61,7 +60,7 @@ def info_text(row: dict, profiles: dict, image: np.ndarray,
     lines.append("BEAM")
     for key in BEAM_KEYS:
         text = f"  {key:<22s} {_value(row, key):>10s}"
-        requested = row.get(BEAM_REQUESTED.get(key, ""))
+        requested = row.get(hd.BEAM_READBACK_TO_REQUESTED.get(key, ""))
         if requested is not None:
             text += f"  (set {requested:g})"
         lines.append(text)
@@ -100,6 +99,31 @@ def info_text(row: dict, profiles: dict, image: np.ndarray,
     return "\n".join(lines)
 
 
+def _align_to_image(axis, image_axis, along: str) -> None:
+    """Keep ``axis`` spanning exactly the same range as the drawn image, along one direction.
+
+    imshow uses aspect="equal" so that a pixel stays square, which means matplotlib shrinks the
+    image inside its gridspec cell whenever the cell has a different shape -- here by 5.7% of the
+    figure on each side. The profile axes keep the full cell, so their curves sit next to features
+    they do not line up with, and the further the cell is from the image's own shape the worse it
+    gets. Which direction shrinks depends on the figure size and on whether the image was cropped
+    to the MCP, so both directions are handled.
+
+    Done with a locator rather than by setting a position once, because the aspect is reapplied on
+    every draw: a fixed position would come apart again the moment the window is resized.
+    """
+    def locator(axis, renderer):
+        image_axis.apply_aspect()
+        drawn = image_axis.get_position(original=False)
+        own = axis.get_position(original=True)
+        if along == "x":
+            return Bbox.from_extents(drawn.x0, own.y0, drawn.x1, own.y1)
+
+        return Bbox.from_extents(own.x0, drawn.y0, own.x1, drawn.y1)
+
+    axis.set_axes_locator(locator)
+
+
 def _draw_profile(axis, position, projection, slice_values, vertical: bool) -> None:
     """Draw a projection and a centre slice on one axis, each normalised to its own maximum.
 
@@ -131,16 +155,25 @@ def plot_image(row: dict,
                image: np.ndarray | None = None,
                label: str | None = None,
                header: list[str] | None = None,
-               save_name: str | None = None) -> plt.Figure:
+               save_name: str | None = None,
+               vmax: float | None = None,
+               roi: bool = False) -> plt.Figure:
     """One window: image, both marginal profiles, and the ELENA settings.
 
     Pass ``image`` to show something other than this row's own frame -- the averaged view uses it.
+    ``roi=True`` crops to the MCP active area measured by fit_mcp_area.py and draws its rim, so
+    the profiles below only count the part of the frame that can see anything.
     """
     if image is None:
         image = hd.get_image(row)
     if image is None:
         raise ValueError(f"run {row['Run Number']} has no PCO Edge image "
                          f"(has_image={row.get('has_image')})")
+
+    # the crop offset is what lets the fitted circle be drawn in the cropped frame's coordinates
+    box = hd.mcp_roi_box(hd.ROI_MARGIN_PX, shape=image.shape) if roi else None
+    if box is not None:
+        image = hd.crop_to_mcp(image)
 
     label = label or f"run {row['Run Number']}"
     profiles = hd.image_profiles(image)
@@ -158,12 +191,20 @@ def plot_image(row: dict,
     ax_colorbar = fig.add_subplot(grid[1, 1])
 
     peak = float(image.max())
+    ceiling = vmax if vmax is not None else (peak / contrast if contrast else peak)
     mesh = ax_image.imshow(image, cmap=COLORMAP, origin="upper", aspect="equal",
-                           vmin=0.0, vmax=peak / contrast if contrast else peak,
-                           interpolation="nearest")
-    ax_image.set_title(f"{label}   PCO Edge {width}x{height} (5x5 coarsened)", fontsize=10)
+                           vmin=0.0, vmax=ceiling, interpolation="nearest")
+    cropped = "  cropped to the MCP" if box is not None else "  (5x5 coarsened)"
+    ax_image.set_title(f"{label}   PCO Edge {width}x{height}{cropped}", fontsize=10)
     ax_image.set_ylabel("row [px]")
     ax_image.tick_params(labelbottom=False)
+
+    if box is not None:
+        center_row, center_col, radius = hd.mcp_circle()
+        ax_image.add_patch(Circle((center_col - box[2], center_row - box[0]), radius,
+                                  fill=False, color="#00ff88", lw=0.9, alpha=0.8))
+        ax_image.plot(center_col - box[2], center_row - box[0], "+",
+                      color="#00ff88", ms=10, mew=1.2)
 
     # mark where the slices were taken
     ax_image.axhline(profiles["slice_row"], color="w", lw=0.5, alpha=0.4)
@@ -178,6 +219,10 @@ def plot_image(row: dict,
                   vertical=True)
     ax_y.set_xlabel("normalised")
     ax_y.tick_params(labelleft=False)
+
+    # sharex/sharey line the *data* up; these line the axes boxes up with the drawn image
+    _align_to_image(ax_x, ax_image, along="x")
+    _align_to_image(ax_y, ax_image, along="y")
 
     # a slim bar inside the cell, so the y-profile's tick labels above it stay readable
     ax_colorbar.axis("off")
@@ -207,7 +252,9 @@ def plot_average(runs: list[int],
                  contrast: float = CONTRAST,
                  save: bool = False,
                  force: bool = False,
-                 show: bool = True) -> plt.Figure | None:
+                 show: bool = True,
+                 vmax: float | None = None,
+                 roi: bool = False) -> plt.Figure | None:
     """Average several repeats of one setting into a single figure.
 
     Refuses when the runs were not taken at the same settings: averaging images from different
@@ -241,7 +288,7 @@ def plot_average(runs: list[int],
               "settings verified identical; scalars below are means"]
 
     figure = plot_image(averaged, contrast=contrast, save=save, image=mean_image, label=label,
-                        header=header,
+                        header=header, vmax=vmax, roi=roi,
                         save_name=f"pco_image_avg_{present[0]}-{present[-1]}.png")
 
     if show:
@@ -250,19 +297,6 @@ def plot_average(runs: list[int],
         plt.close(figure)
 
     return figure
-
-
-def _parse_runs(tokens: list[str]) -> list[int]:
-    """Accept both single runs and inclusive 'first-last' ranges."""
-    runs = []
-    for token in tokens:
-        if "-" in token.strip("-"):
-            first, last = token.split("-", 1)
-            runs.extend(range(int(first), int(last) + 1))
-        else:
-            runs.append(int(token))
-
-    return sorted(set(runs))
 
 
 # opening more windows than this at once is unmanageable, so warn instead of doing it silently
@@ -276,6 +310,12 @@ def main() -> None:
                         help="run numbers and/or inclusive first-last ranges, e.g. 523357-523410")
     parser.add_argument("--contrast", type=float, default=CONTRAST,
                         help="vmax = peak / contrast; raise it to bring out faint structure")
+    parser.add_argument("--vmax", type=float,
+                        help="absolute colour ceiling, overriding --contrast. The right control "
+                             "for a flooded frame such as the LED picture of the MCP, where the "
+                             "peak says nothing about the level of interest")
+    parser.add_argument("--roi", action="store_true",
+                        help="crop to the MCP active area from fit_mcp_area.py and draw its rim")
     parser.add_argument("--save", action="store_true", help="also write a PNG into plots/")
     parser.add_argument("--no-show", action="store_true",
                         help="write the PNGs without opening windows (implies --save)")
@@ -285,12 +325,12 @@ def main() -> None:
                              "of their averaged image")
     args = parser.parse_args()
 
-    runs = _parse_runs(args.runs)
+    runs = hd.parse_runs(args.runs)
     save = args.save or args.no_show
 
     if args.average:
         plot_average(runs, contrast=args.contrast, save=save, force=args.force,
-                     show=not args.no_show)
+                     show=not args.no_show, vmax=args.vmax, roi=args.roi)
         return
 
     if not args.no_show and len(runs) > MANY_WINDOWS:
@@ -302,7 +342,8 @@ def main() -> None:
     for run in runs:
         try:
             data = hd.download_run(run, force=args.force)
-            figure = plot_image(data.row(0, named=True), contrast=args.contrast, save=save)
+            figure = plot_image(data.row(0, named=True), contrast=args.contrast, save=save,
+                                vmax=args.vmax, roi=args.roi)
             shown += 1
             if args.no_show:
                 # otherwise every figure stays open and matplotlib complains past 20 of them

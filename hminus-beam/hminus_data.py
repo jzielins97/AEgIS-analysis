@@ -11,8 +11,10 @@ CMOSDataAnalysis for free. See ALPACA/data/pipelines/gold/CMOSDataAnalysis.py.
 """
 
 import importlib.util
+import json
 import logging
 import os
+import webbrowser
 
 import numpy as np
 import polars as pl
@@ -21,6 +23,34 @@ from dotenv import load_dotenv
 logging.basicConfig(format="%(levelname)s:%(name)s:%(message)s")
 _log = logging.getLogger(__name__)
 _log.setLevel(logging.INFO)
+
+
+def use_browser_renderer() -> None:
+    """Point plotly at the system browser. Call this from a script's __main__ block.
+
+    Plotly enters its notebook-detection branch whenever IPython is merely importable
+    (plotly/io/_renderers.py), never mind that nothing is running one, so a script started from a
+    VS Code terminal ends up on the "vscode" or "plotly_mimetype+notebook" renderer. Both are
+    mime-type renderers: fig.show() then raises "Mime type rendering requires nbformat", and
+    installing nbformat only trades the error for silence, because the mime bundle is handed to a
+    notebook frontend that is not there.
+
+    Deliberately not done at import time: in a real notebook these modules must keep the notebook's
+    own renderer. An explicit PLOTLY_RENDERER always wins.
+    """
+    if os.environ.get("PLOTLY_RENDERER"):
+        return
+
+    import plotly.io as pio
+
+    try:
+        webbrowser.get()
+    except webbrowser.Error:
+        _log.warning("no usable web browser found; leaving the plotly renderer at %r. "
+                     "The figure is still written to %s.", pio.renderers.default, PLOT_DIR)
+        return
+
+    pio.renderers.default = "browser"
 
 
 def _load_alpaca_dotenv() -> None:
@@ -50,7 +80,21 @@ DETECTOR = "PCOEdge"
 ACQ = "acq_0"
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+# Settings-only cache, for runs fetched without their camera frame (see load_settings). Kept apart
+# from DATA_DIR on purpose: an image-less file there would look like a stale cache entry to
+# download_run and send it re-downloading the frame it deliberately skipped.
+SETTINGS_DIR = os.path.join(DATA_DIR, "settings")
 PLOT_DIR = os.path.join(os.path.dirname(__file__), "plots")
+
+# Geometry of the cached frame. Both mirror CMOS_PCOEdge.analysis_config in
+# ALPACA/configurations/hardware.py: reduction_block_size is (5, 5) and px_to_mm is 1/70, so the
+# 5120x5120 sensor covers 73.1 mm and one pixel of the cached 1024x1024 image is 5/70 mm.
+COARSEN = 5
+PX_TO_MM = 1 / 70          # mm per raw sensor pixel
+COARSE_PX_TO_MM = COARSEN * PX_TO_MM
+
+# Where fit_mcp_area.py leaves the MCP active area it measured from the LED picture.
+MCP_ROI_PATH = os.path.join(DATA_DIR, "mcp_roi.json")
 
 # ---------------------------------------------------------------------------
 # ELENA correctors
@@ -132,15 +176,56 @@ REQUESTED_TO_DEVICE = {
     "ELENA_QD2_V": "QDNE14P", "ELENA_QF2_V": "QFNE15P",
 }
 DEVICE_REQUESTED = {device: requested for requested, device in REQUESTED_TO_DEVICE.items()}
+# SETPOINTS deliberately stays "the ten corrector setpoints", even though the knobs below are scan
+# axes on the same footing. Widening it would change _BATMAN_VARIABLES, setpoints() and the
+# "REQUESTED SETPOINTS" block in plot_pco_image, all of which format their values as volts.
 SETPOINTS = list(REQUESTED_TO_DEVICE)
 
+# ---------------------------------------------------------------------------
+# the ELENA steering knobs
+# ---------------------------------------------------------------------------
+# ELENA can be steered two ways: by setting corrector voltages directly, or by setting these knobs,
+# an offset and an angle per plane. The knob path works out the difference between the current and
+# the requested knob value, converts that to correction voltages and applies them to the correctors
+# -- so the knobs are relative, not absolute, and a knob of 0 does not by itself mean "no steering".
+#
+# A run set can therefore scan a knob while every ELENA_*_CORRECTOR_V sits still (runs 523415-523441
+# are a 3x3 offset scan of exactly that shape), which is why these are plotting axes and not just
+# caption material.
+#
+# Batman carries the exact requested number; ELENA_Parameters carries the knob state it logged.
+# Those normally agree, and where they do not the run is suspect -- see check_knob_state.
+BEAM_BATMAN_KEY = {"H_offset_requested": "ELENA_H_OFFSET",
+                   "V_offset_requested": "ELENA_V_OFFSET",
+                   "H_angle_requested": "ELENA_H_ANGLE",
+                   "V_angle_requested": "ELENA_V_ANGLE"}
+BEAM_REQUESTED_TO_READBACK = {"H_offset_requested": "H_offset_mm",
+                              "V_offset_requested": "V_offset_mm",
+                              "H_angle_requested": "H_angle_mrad",
+                              "V_angle_requested": "V_angle_mrad"}
+BEAM_READBACK_TO_REQUESTED = {readback: requested
+                              for requested, readback in BEAM_REQUESTED_TO_READBACK.items()}
+BEAM_SETPOINTS = list(BEAM_REQUESTED_TO_READBACK)
+BEAM_READBACKS = list(BEAM_REQUESTED_TO_READBACK.values())
+
+# every knob a scan can be plotted against, correctors first so that a corrector-driven run set
+# picks the same axes it always did
+ALL_SETPOINTS = SETPOINTS + BEAM_SETPOINTS
+ALL_READBACKS = SET_CORRECTORS + BEAM_READBACKS
+SETPOINT_TO_READBACK = {**REQUESTED_TO_DEVICE, **BEAM_REQUESTED_TO_READBACK}
+READBACK_TO_SETPOINT = {**DEVICE_REQUESTED, **BEAM_READBACK_TO_REQUESTED}
+
+# unit of every knob, for axis labels: the correctors are driven in volts, the knobs in what the
+# operator actually types
+KNOB_UNIT = {name: "V" for name in SETPOINTS + SET_CORRECTORS}
+KNOB_UNIT.update({"H_offset_requested": "mm", "H_offset_mm": "mm",
+                  "V_offset_requested": "mm", "V_offset_mm": "mm",
+                  "H_angle_requested": "mrad", "H_angle_mrad": "mrad",
+                  "V_angle_requested": "mrad", "V_angle_mrad": "mrad"})
+
 _BATMAN_VARIABLES = {f"Batman*{ACQ}*{name}": name for name in SETPOINTS}
-_BATMAN_VARIABLES.update({
-    f"Batman*{ACQ}*ELENA_H_OFFSET": "H_offset_requested",
-    f"Batman*{ACQ}*ELENA_V_OFFSET": "V_offset_requested",
-    f"Batman*{ACQ}*ELENA_H_ANGLE": "H_angle_requested",
-    f"Batman*{ACQ}*ELENA_V_ANGLE": "V_angle_requested",
-})
+_BATMAN_VARIABLES.update({f"Batman*{ACQ}*{key}": column
+                          for column, key in BEAM_BATMAN_KEY.items()})
 
 # variable -> column, in the order they are written to the parquet
 VARIABLE_TO_COLUMN = {"Run_Number*Run_Number*__value": "Run Number",
@@ -165,13 +250,33 @@ IMAGE_COLUMNS = {column for variable, column in VARIABLE_TO_COLUMN.items()
 
 # the ELENA scalars shown in a picture's description, in display order. The driven correctors are
 # named by device; describe_elena appends their requested setpoint automatically.
-DESCRIPTION_KEYS = ["H_offset_mm", "V_offset_mm", "H_angle_mrad", "V_angle_mrad",
-                    "catch_delay", "beam_stopper_position"] + SET_CORRECTORS
+DESCRIPTION_KEYS = BEAM_READBACKS + ["catch_delay", "beam_stopper_position"] + SET_CORRECTORS
 
 
 def run_parquet_path(run: int) -> str:
     """Path of the local cache file for a single run."""
     return os.path.join(DATA_DIR, f"{run}.parquet")
+
+
+def settings_parquet_path(run: int) -> str:
+    """Path of the settings-only cache file for a single run."""
+    return os.path.join(SETTINGS_DIR, f"{run}.parquet")
+
+
+def parse_runs(tokens: list[str]) -> list[int]:
+    """Accept both single runs and inclusive 'first-last' ranges, e.g. ['523357-523410', '523415'].
+
+    strip('-') so that a lone negative number is not read as a range.
+    """
+    runs = []
+    for token in tokens:
+        if "-" in token.strip("-"):
+            first, last = token.split("-", 1)
+            runs.extend(range(int(first), int(last) + 1))
+        else:
+            runs.append(int(token))
+
+    return sorted(set(runs))
 
 
 def _is_missing(value) -> bool:
@@ -363,6 +468,78 @@ def load_runs(runs: list[int], force: bool = False, **kwargs) -> pl.DataFrame:
     return pl.concat(frames, how="diagonal_relaxed").sort("Run Number")
 
 
+SETTINGS_COLUMNS = list(SCALAR_VARIABLE_TO_COLUMN.values())
+
+
+def download_settings(run: int, force: bool = False, verbosing: bool = False) -> pl.DataFrame:
+    """The Batman setpoints and ELENA readbacks of one run, without ever reading its camera frame.
+
+    Asking ALPACA for only the scalar variables makes bronze.remove_files_in_speed_mode drop the PCO
+    Edge tiff from the file list, so the pipeline never reads or flattens the 26 M pixel frame --
+    the same trick backfill_run uses, and where nearly all the per-run time goes. That also means a
+    run whose camera acquisition was empty still works here, which a full download cannot promise.
+
+    An existing full cache entry is reused (reading only the scalar columns, so the flattened image
+    is never materialised); otherwise the run is fetched into SETTINGS_DIR.
+    """
+    full = run_parquet_path(run)
+    if os.path.exists(full) and not force:
+        available = set(pl.read_parquet_schema(full))
+        if set(SETTINGS_COLUMNS) <= available:
+            _log.info("run %s: settings from the full cache (%s)", run, full)
+            return pl.read_parquet(full, columns=SETTINGS_COLUMNS)
+
+    path = settings_parquet_path(run)
+    if os.path.exists(path) and not force:
+        if set(SETTINGS_COLUMNS) <= set(pl.read_parquet_schema(path)):
+            _log.info("run %s: settings cache hit (%s)", run, path)
+            return pl.read_parquet(path, columns=SETTINGS_COLUMNS)
+
+    _log.info("run %s: downloading settings from ALPACA (no camera frame)", run)
+    raw = finalize.generate(
+        first_run=run,
+        last_run=run,
+        elog_results_filename=str(run),
+        known_bad_runs=[],
+        variables_of_interest=list(SCALAR_VARIABLE_TO_COLUMN.keys()),
+        directories_to_flush=["bronze", "gold", "datasets", "elog"],
+        speed_mode=True,
+        verbosing=verbosing,
+        force_local_processing=True,
+    )
+
+    row = {}
+    for variable, column in SCALAR_VARIABLE_TO_COLUMN.items():
+        try:
+            value = raw[variable.replace("*", "_")][0]
+        except (KeyError, IndexError):
+            value = None
+        if _is_missing(value):
+            value = None
+        row[column] = value.item() if isinstance(value, np.generic) else value
+
+    frame = pl.DataFrame([row])
+    os.makedirs(SETTINGS_DIR, exist_ok=True)
+    frame.write_parquet(path)
+
+    return frame
+
+
+def load_settings(runs: list[int], force: bool = False, **kwargs) -> pl.DataFrame:
+    """Settings for every run in ``runs``, in one DataFrame, without downloading any camera frame."""
+    frames = []
+    for run in sorted(runs):
+        try:
+            frames.append(download_settings(run, force=force, **kwargs))
+        except Exception as e:  # a single bad run must not kill the whole set
+            _log.error("run %s failed: %s: %s", run, type(e).__name__, e)
+
+    if not frames:
+        raise RuntimeError(f"none of the requested runs could be loaded: {runs}")
+
+    return pl.concat(frames, how="diagonal_relaxed").sort("Run Number")
+
+
 def get_image(row: dict | pl.DataFrame) -> np.ndarray | None:
     """Rebuild the 2D image of a single run from its flattened cache column."""
     if isinstance(row, pl.DataFrame):
@@ -400,6 +577,139 @@ def downsample(image: np.ndarray, max_size: int, how: str = "mean") -> np.ndarra
         return blocks.mean(axis=(1, 3))
 
     raise ValueError(f"unknown reduction {how!r}, expected 'mean' or 'max'")
+
+
+# ---------------------------------------------------------------------------
+# the MCP active area
+# ---------------------------------------------------------------------------
+# fit_mcp_area.py measures the circle once, from the LED picture of the detector, and writes it to
+# MCP_ROI_PATH. Everything downstream reads it from here, so nothing else has to know how it was
+# found. Cropping happens on read: the parquet cache keeps its full 1024x1024 frames.
+
+_mcp_roi_cache: dict | None = None
+_mcp_roi_warned = False
+
+
+def load_mcp_roi(reload: bool = False) -> dict | None:
+    """The fitted MCP circle, or None (with one warning) if it has not been measured yet."""
+    global _mcp_roi_cache, _mcp_roi_warned
+
+    if _mcp_roi_cache is not None and not reload:
+        return _mcp_roi_cache
+
+    if not os.path.exists(MCP_ROI_PATH):
+        if not _mcp_roi_warned:
+            _log.warning("no MCP region of interest at %s -- run fit_mcp_area.py first",
+                         MCP_ROI_PATH)
+            _mcp_roi_warned = True
+        return None
+
+    with open(MCP_ROI_PATH) as handle:
+        _mcp_roi_cache = json.load(handle)
+
+    return _mcp_roi_cache
+
+
+def mcp_circle() -> tuple[float, float, float] | None:
+    """(centre row, centre column, radius) of the active area, in cached-image pixels."""
+    roi = load_mcp_roi()
+    if roi is None:
+        return None
+
+    return roi["center_row_px"], roi["center_col_px"], roi["radius_px"]
+
+
+def mcp_roi_box(margin_px: float = 0.0,
+                shape: tuple[int, int] = (1024, 1024)) -> tuple[int, int, int, int] | None:
+    """The circle's bounding box as (row0, row1, col0, col1), clipped to the frame.
+
+    ``margin_px`` widens it; a little margin keeps the rim itself visible, which is what makes a
+    cropped picture easy to sanity-check.
+    """
+    circle = mcp_circle()
+    if circle is None:
+        return None
+
+    center_row, center_col, radius = circle
+    reach = radius + margin_px
+    row0 = int(max(0, np.floor(center_row - reach)))
+    row1 = int(min(shape[0], np.ceil(center_row + reach)))
+    col0 = int(max(0, np.floor(center_col - reach)))
+    col1 = int(min(shape[1], np.ceil(center_col + reach)))
+
+    return row0, row1, col0, col1
+
+
+# enough margin to show the rim and a hint of the mount around it
+ROI_MARGIN_PX = 12.0
+
+
+def crop_to_mcp(image: np.ndarray, margin_px: float = ROI_MARGIN_PX) -> np.ndarray:
+    """Crop an image to the MCP bounding box, or return it unchanged if no ROI is known."""
+    box = mcp_roi_box(margin_px, shape=image.shape)
+    if box is None:
+        return image
+
+    row0, row1, col0, col1 = box
+    return image[row0:row1, col0:col1]
+
+
+def mcp_crop_origin(margin_px: float = ROI_MARGIN_PX) -> tuple[int, int]:
+    """Where crop_to_mcp's output starts in the full frame, as the ``origin`` the masks want."""
+    box = mcp_roi_box(margin_px)
+
+    return (0, 0) if box is None else (box[0], box[2])
+
+
+def mcp_mask(shape: tuple[int, int] = (1024, 1024),
+             origin: tuple[int, int] = (0, 0),
+             margin_px: float = 0.0) -> np.ndarray | None:
+    """Boolean mask of the pixels inside the active area.
+
+    ``origin`` is the (row, column) of the array's first pixel in the full frame, so a mask can be
+    built for an already-cropped image by passing ``mcp_crop_origin()``.
+    """
+    circle = mcp_circle()
+    if circle is None:
+        return None
+
+    center_row, center_col, radius = circle
+    rows = np.arange(shape[0])[:, None] + origin[0]
+    columns = np.arange(shape[1])[None, :] + origin[1]
+
+    return (rows - center_row) ** 2 + (columns - center_col) ** 2 <= (radius + margin_px) ** 2
+
+
+def apply_mcp_mask(image: np.ndarray,
+                   origin: tuple[int, int] = (0, 0),
+                   fill: float = np.nan,
+                   margin_px: float = 0.0) -> np.ndarray:
+    """Blank everything outside the active area, for sums that should only count real signal."""
+    mask = mcp_mask(image.shape, origin, margin_px)
+    if mask is None:
+        return image
+
+    masked = image.astype(np.float32, copy=True)
+    masked[~mask] = fill
+
+    return masked
+
+
+def mcp_extent_mm(box: tuple[int, int, int, int] | None = None) -> tuple[float, ...] | None:
+    """Matplotlib ``extent`` in mm relative to the MCP centre, for an image cropped to ``box``.
+
+    Returned as (left, right, bottom, top) with bottom > top, which is what ``origin='upper'``
+    wants: row 0 of the array stays at the top, as in the raw frame.
+    """
+    circle = mcp_circle()
+    if circle is None:
+        return None
+
+    center_row, center_col, _ = circle
+    row0, row1, col0, col1 = box if box is not None else (0, 1024, 0, 1024)
+
+    return ((col0 - center_col) * COARSE_PX_TO_MM, (col1 - center_col) * COARSE_PX_TO_MM,
+            (row1 - center_row) * COARSE_PX_TO_MM, (row0 - center_row) * COARSE_PX_TO_MM)
 
 
 def setpoints(row: dict | pl.DataFrame) -> dict:
@@ -457,15 +767,13 @@ def describe_elena(row: dict | pl.DataFrame,
     for key in keys:
         if key not in row:
             continue
-        if key in DEVICE_CORRECTOR:
-            label = f"{key} ({DEVICE_CORRECTOR[key]})"
-            text = _format_value(row[key])
-            # for a driven corrector, show what was asked for next to what came back
-            requested = row.get(DEVICE_REQUESTED.get(key))
-            if requested is not None:
-                text += f" (set {_format_value(requested)})"
-        else:
-            label, text = key, _format_value(row[key])
+        label = f"{key} ({DEVICE_CORRECTOR[key]})" if key in DEVICE_CORRECTOR else key
+        text = _format_value(row[key])
+        # for a driven knob -- corrector or steering knob alike -- show what was asked for next to
+        # what came back
+        requested = row.get(READBACK_TO_SETPOINT.get(key, ""))
+        if requested is not None:
+            text += f" (set {_format_value(requested)})"
         lines.append(f"{label} = {text}")
 
     return sep.join(lines)
@@ -498,20 +806,70 @@ def check_mirror_channels(data: pl.DataFrame, atol: float = 1.0) -> pl.DataFrame
     return pl.DataFrame(offenders)
 
 
+def check_knob_state(data: pl.DataFrame, atol: float = 0.01) -> pl.DataFrame:
+    """Report runs where ELENA's logged knob state disagrees with what Batman requested.
+
+    The knobs are relative: the control system applies the difference between the current and the
+    requested value, so a run can begin with knob state left over from earlier work. When that
+    happens the two columns part company, and the run cannot be used to work out how the knobs map
+    onto corrector voltages -- it is either carrying stale state or was steered by setting corrector
+    voltages directly. Run 523328 is the one such run in the current cache: Batman asked for
+    all-zero knobs while ELENA still logged V_offset = -23 mm.
+
+    Returns one row per (run, knob) that disagrees, so an empty frame means every run in ``data``
+    ran at the knob values it asked for.
+    """
+    offenders = []
+    for run_row in data.iter_rows(named=True):
+        for requested, readback in BEAM_REQUESTED_TO_READBACK.items():
+            asked, logged = run_row.get(requested), run_row.get(readback)
+            if asked is None or logged is None:
+                continue
+            deviation = abs(asked - logged)
+            if deviation > atol:
+                offenders.append({"Run Number": run_row["Run Number"],
+                                  "knob": requested, "requested": asked, "logged": logged,
+                                  "abs(requested - logged)": deviation})
+
+    if not offenders:
+        return pl.DataFrame(schema={"Run Number": pl.Int64, "knob": pl.Utf8,
+                                    "requested": pl.Float64, "logged": pl.Float64,
+                                    "abs(requested - logged)": pl.Float64})
+
+    return pl.DataFrame(offenders)
+
+
 # Corrector readbacks jitter by ~0.01 between runs while real scan steps are tens to hundreds, so
 # group settings into bins of this width rather than comparing floats or rounding to decimals.
 BIN_WIDTH = 1.0
 
+# The knob readbacks are not measurements: ELENA_Parameters echoes the requested number rounded to
+# 4 dp, so they need a bin four orders of magnitude finer. Binning them at the corrector's 1 V is
+# not merely coarse, it is wrong -- H_offset_mm = -17.9144 comes out as -18, and any scan whose step
+# is below 1 mm collapses into a single bin and reads as a knob that never moved.
+BEAM_BIN_WIDTH = 1e-3
+
+BIN_WIDTHS = {**{name: BIN_WIDTH for name in SETPOINTS + SET_CORRECTORS},
+              **{name: BEAM_BIN_WIDTH for name in BEAM_SETPOINTS + BEAM_READBACKS}}
+
+
+def bin_width_for(column: str) -> float:
+    """Bin width for a column's unit: volts for the correctors, mm or mrad for the knobs.
+
+    Anything that is not a knob (catch_delay, an image observable) falls back to the corrector
+    width, which is what such columns always got.
+    """
+    return BIN_WIDTHS.get(column, BIN_WIDTH)
+
 
 def bin_values(values: pl.Series, bin_width: float = BIN_WIDTH) -> pl.Series:
-    """Snap corrector readbacks onto a grid of ``bin_width``, so repeats of one setting collapse."""
+    """Snap readbacks onto a grid of ``bin_width``, so repeats of one setting collapse."""
     return (values / bin_width).round() * bin_width
 
 
 # The parameters that must agree before averaging several runs together. These are the requested
 # numbers, so they compare exactly -- unlike the readbacks, which jitter by ~0.01 between runs.
-COMPARE_KEYS = SETPOINTS + ["H_offset_requested", "V_offset_requested",
-                            "H_angle_requested", "V_angle_requested", "catch_delay"]
+COMPARE_KEYS = ALL_SETPOINTS + ["catch_delay"]
 
 
 def differing_settings(data: pl.DataFrame, keys: list[str] | None = None) -> dict[str, list]:
@@ -566,31 +924,36 @@ def average_runs(data: pl.DataFrame) -> tuple[np.ndarray, dict]:
 
 
 def varying_setpoints(data: pl.DataFrame, candidates: list[str] | None = None) -> list[str]:
-    """The requested setpoints that a run set actually scanned.
+    """The requested settings that a run set actually scanned, correctors and steering knobs alike.
 
-    Every run carries all ten setpoints, so this is how you tell which knobs a measurement moved.
-    No binning is needed: these are the exact requested numbers, not noisy readbacks.
+    Every run carries all fourteen, so this is how you tell which knobs a measurement moved. No
+    binning is needed: these are the exact requested numbers, not noisy readbacks.
     """
     if candidates is None:
-        candidates = SETPOINTS
+        candidates = ALL_SETPOINTS
 
     return [name for name in candidates
             if name in data.columns and data.get_column(name).drop_nulls().n_unique() > 1]
 
 
-def varying_correctors(data: pl.DataFrame,
-                       correctors: list[str] | None = None,
-                       bin_width: float = BIN_WIDTH) -> list[str]:
-    """The subset of ``correctors`` that actually took more than one value across ``data``."""
-    if correctors is None:
-        correctors = SET_CORRECTORS
+def varying_readbacks(data: pl.DataFrame,
+                      columns: list[str] | None = None,
+                      bin_width: float | None = None) -> list[str]:
+    """The subset of ``columns`` that actually took more than one binned value across ``data``.
+
+    ``bin_width=None`` picks a width per column (see bin_width_for), which is the only correct
+    choice for a mixed list: one width cannot serve both a corrector in volts and an offset in mm.
+    """
+    if columns is None:
+        columns = ALL_READBACKS
 
     varying = []
-    for corrector in correctors:
-        if corrector not in data.columns:
+    for column in columns:
+        if column not in data.columns:
             continue
-        values = bin_values(data.get_column(corrector).drop_nulls(), bin_width).unique()
+        width = bin_width_for(column) if bin_width is None else bin_width
+        values = bin_values(data.get_column(column).drop_nulls(), width).unique()
         if len(values) > 1:
-            varying.append(corrector)
+            varying.append(column)
 
     return varying

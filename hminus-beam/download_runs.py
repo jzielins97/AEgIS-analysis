@@ -173,7 +173,7 @@ def main() -> None:
     if args.runs is None and args.start_run is None and not args.watch and not args.backfill:
         parser.error("give --runs, --from, --watch, or --backfill")
 
-    targets = _parse_runs(args.runs) if args.runs else None
+    targets = hd.parse_runs(args.runs) if args.runs else None
 
     if args.backfill:
         backfill(targets)
@@ -229,19 +229,6 @@ def main() -> None:
         pace = "keeping up with" if average < MEASUREMENT_SECONDS else "slower than"
         print(f"average {average:.1f} s per run -- {pace} the ~{MEASUREMENT_SECONDS:.0f} s "
               f"measurement cadence")
-
-
-def _parse_runs(tokens: list[str]) -> list[int]:
-    """Accept both single runs and inclusive 'first-last' ranges."""
-    runs = []
-    for token in tokens:
-        if "-" in token.strip("-"):
-            first, last = token.split("-", 1)
-            runs.extend(range(int(first), int(last) + 1))
-        else:
-            runs.append(int(token))
-
-    return sorted(set(runs))
 
 
 if __name__ == "__main__":
