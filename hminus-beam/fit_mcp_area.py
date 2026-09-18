@@ -29,7 +29,7 @@ from scipy import ndimage as ndi
 
 import hminus_data as hd
 
-RUN = 523443             # the LED picture of the MCP
+RUN = 523781 #  523443             # the LED picture of the MCP
 COLORMAP = "magma"
 
 # The LED floods the whole frame, so the disc only separates from its surroundings once the top of
